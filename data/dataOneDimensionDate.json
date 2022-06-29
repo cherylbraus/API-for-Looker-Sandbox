@@ -1,0 +1,1090 @@
+{
+   "queryResponse": {
+        "parent_id": "a2376001c67baee8b5a48c874a3e3391",
+        "sql_changed": false,
+        "aggregate_table_used_info": null,
+        "added_params": null,
+        "data": [
+            {
+                "shipments.dispatched_month": {
+                    "value": "2022-06",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2022-06&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-06",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-06"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2022-06&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-06",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-06"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2022-06&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-06",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-06"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 12515,
+                    "rendered": "12,515",
+                    "links": [
+                        {
+                            "label": "Show All 12,515",
+                            "label_prefix": "Show All",
+                            "label_value": "12,515",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2022-06&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": -0.12829978407745346,
+                    "rendered": "-13%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2022-05",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2022-05&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-05",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-05"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2022-05&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-05",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-05"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2022-05&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-05",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-05"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 14357,
+                    "rendered": "14,357",
+                    "links": [
+                        {
+                            "label": "Show All 14,357",
+                            "label_prefix": "Show All",
+                            "label_value": "14,357",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2022-05&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": 0.03429147755925355,
+                    "rendered": "3%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2022-04",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2022-04&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-04",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-04"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2022-04&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-04",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-04"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2022-04&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-04",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-04"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 13881,
+                    "rendered": "13,881",
+                    "links": [
+                        {
+                            "label": "Show All 13,881",
+                            "label_prefix": "Show All",
+                            "label_value": "13,881",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2022-04&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": -0.1503335985799107,
+                    "rendered": "-15%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2022-03",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2022-03&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-03",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-03"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2022-03&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-03",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-03"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2022-03&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-03",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-03"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 16337,
+                    "rendered": "16,337",
+                    "links": [
+                        {
+                            "label": "Show All 16,337",
+                            "label_prefix": "Show All",
+                            "label_value": "16,337",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2022-03&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": 0.1478254760064639,
+                    "rendered": "15%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2022-02",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2022-02&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-02",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-02"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2022-02&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-02",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-02"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2022-02&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-02",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-02"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 14233,
+                    "rendered": "14,233",
+                    "links": [
+                        {
+                            "label": "Show All 14,233",
+                            "label_prefix": "Show All",
+                            "label_value": "14,233",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2022-02&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": 0.006007916313259809,
+                    "rendered": "1%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2022-01",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2022-01&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-01",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-01"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2022-01&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-01",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-01"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2022-01&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2022-01",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2022-01"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 14148,
+                    "rendered": "14,148",
+                    "links": [
+                        {
+                            "label": "Show All 14,148",
+                            "label_prefix": "Show All",
+                            "label_value": "14,148",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2022-01&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": -0.009382439434252876,
+                    "rendered": "-1%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2021-12",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2021-12&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-12",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-12"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2021-12&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-12",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-12"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2021-12&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-12",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-12"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 14282,
+                    "rendered": "14,282",
+                    "links": [
+                        {
+                            "label": "Show All 14,282",
+                            "label_prefix": "Show All",
+                            "label_value": "14,282",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2021-12&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": -0.036497335222289706,
+                    "rendered": "-4%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2021-11",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2021-11&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-11",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-11"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2021-11&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-11",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-11"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2021-11&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-11",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-11"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 14823,
+                    "rendered": "14,823",
+                    "links": [
+                        {
+                            "label": "Show All 14,823",
+                            "label_prefix": "Show All",
+                            "label_value": "14,823",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2021-11&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": -0.0014147130153597809,
+                    "rendered": "-0%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2021-10",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2021-10&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-10",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-10"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2021-10&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-10",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-10"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2021-10&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-10",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-10"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 14844,
+                    "rendered": "14,844",
+                    "links": [
+                        {
+                            "label": "Show All 14,844",
+                            "label_prefix": "Show All",
+                            "label_value": "14,844",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2021-10&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": -0.02393477117306686,
+                    "rendered": "-2%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2021-09",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2021-09&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-09",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-09"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2021-09&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-09",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-09"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2021-09&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-09",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-09"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 15208,
+                    "rendered": "15,208",
+                    "links": [
+                        {
+                            "label": "Show All 15,208",
+                            "label_prefix": "Show All",
+                            "label_value": "15,208",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2021-09&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": -0.04896504283659564,
+                    "rendered": "-5%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2021-08",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2021-08&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-08",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-08"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2021-08&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-08",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-08"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2021-08&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-08",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-08"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 15991,
+                    "rendered": "15,991",
+                    "links": [
+                        {
+                            "label": "Show All 15,991",
+                            "label_prefix": "Show All",
+                            "label_value": "15,991",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2021-08&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": 0.05551155115511541,
+                    "rendered": "6%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2021-07",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2021-07&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-07",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-07"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2021-07&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-07",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-07"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2021-07&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-07",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-07"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 15150,
+                    "rendered": "15,150",
+                    "links": [
+                        {
+                            "label": "Show All 15,150",
+                            "label_prefix": "Show All",
+                            "label_value": "15,150",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2021-07&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": 0.003976143141153132,
+                    "rendered": "0%"
+                }
+            },
+            {
+                "shipments.dispatched_month": {
+                    "value": "2021-06",
+                    "links": [
+                        {
+                            "label": "by Dispatched Week",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Week",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_week,shipments.shipment_count&f[shipments.dispatched_month]=2021-06&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-06",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-06"
+                        },
+                        {
+                            "label": "by Dispatched Date",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Date",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_date,shipments.shipment_count&f[shipments.dispatched_month]=2021-06&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-06",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-06"
+                        },
+                        {
+                            "label": "by Dispatched Time",
+                            "label_prefix": "by",
+                            "label_value": "Dispatched Time",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.dispatched_time,shipments.shipment_count&f[shipments.dispatched_month]=2021-06&sorts=shipments.dispatched_month desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%2C%22is_disabled%22%3Atrue%7D%2C%7B%22args%22%3A%5B%22shipments.shipment_count%22%5D%2C%22calculation_type%22%3A%22percent_difference_from_previous%22%2C%22category%22%3A%22table_calculation%22%2C%22based_on%22%3A%22shipments.shipment_count%22%2C%22label%22%3A%22Percent+change+from+previous+-+Shipments+Count+Shipments%22%2C%22source_field%22%3A%22shipments.shipment_count%22%2C%22table_calculation%22%3A%22percent_change_from_previous_shipments_count_shipments_2%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                            "type": "drill",
+                            "type_label": "Drill into 2021-06",
+                            "type_label_prefix": "Drill into",
+                            "type_label_value": "2021-06"
+                        }
+                    ]
+                },
+                "shipments.shipment_count": {
+                    "value": 15090,
+                    "rendered": "15,090",
+                    "links": [
+                        {
+                            "label": "Show All 15,090",
+                            "label_prefix": "Show All",
+                            "label_value": "15,090",
+                            "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.dispatched_month]=2021-06&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                            "type": "measure_default"
+                        }
+                    ]
+                },
+                "percent_change_from_previous_shipments_count_shipments": {
+                    "value": null,
+                    "filterable_value": null
+                },
+                "percent_change_from_previous_shipments_count_shipments_2": {
+                    "value": null,
+                    "rendered": "null"
+                }
+            }
+        ],
+        "drill_menu_build_time": 0.044863,
+        "expired": false,
+        "fields": {
+            "measures": [
+                {
+                    "align": "right",
+                    "can_filter": true,
+                    "category": "measure",
+                    "default_filter_value": null,
+                    "description": "Count Unique Shipment ID. Does not Include TONUs",
+                    "enumerations": null,
+                    "field_group_label": "Counts",
+                    "fill_style": null,
+                    "fiscal_month_offset": 0,
+                    "has_allowed_values": false,
+                    "hidden": false,
+                    "is_filter": false,
+                    "is_numeric": true,
+                    "label": "Shipments Count Shipments",
+                    "label_from_parameter": null,
+                    "label_short": "Count Shipments",
+                    "map_layer": null,
+                    "name": "shipments.shipment_count",
+                    "strict_value_format": false,
+                    "requires_refresh_on_sort": false,
+                    "sortable": true,
+                    "suggestions": null,
+                    "tags": [],
+                    "type": "count_distinct",
+                    "user_attribute_filter_types": [
+                        "number",
+                        "advanced_filter_number"
+                    ],
+                    "value_format": null,
+                    "view": "shipments",
+                    "view_label": "Shipments",
+                    "dynamic": false,
+                    "week_start_day": "monday",
+                    "original_view": "shipments",
+                    "dimension_group": null,
+                    "error": null,
+                    "field_group_variant": "Count Shipments",
+                    "measure": true,
+                    "parameter": false,
+                    "primary_key": false,
+                    "project_name": "snowflake",
+                    "scope": "shipments",
+                    "suggest_dimension": "shipments.shipment_count",
+                    "suggest_explore": "shipments",
+                    "suggestable": false,
+                    "is_fiscal": false,
+                    "is_timeframe": false,
+                    "can_time_filter": false,
+                    "time_interval": null,
+                    "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=2585",
+                    "permanent": null,
+                    "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                    "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                    "sql": "${id} ",
+                    "sql_case": null,
+                    "filters": [
+                        {
+                            "field": "shipments.is_tonu",
+                            "condition": "No"
+                        }
+                    ],
+                    "times_used": 0
+                }
+            ],
+            "dimensions": [
+                {
+                    "align": "left",
+                    "can_filter": true,
+                    "category": "dimension",
+                    "default_filter_value": null,
+                    "description": "The time the shipment was dispatched.",
+                    "enumerations": null,
+                    "field_group_label": "Timestamps",
+                    "fill_style": "range",
+                    "fiscal_month_offset": 0,
+                    "has_allowed_values": false,
+                    "hidden": false,
+                    "is_filter": false,
+                    "is_numeric": false,
+                    "label": "Shipments Dispatched Month",
+                    "label_from_parameter": null,
+                    "label_short": "Dispatched Month",
+                    "map_layer": null,
+                    "name": "shipments.dispatched_month",
+                    "strict_value_format": false,
+                    "requires_refresh_on_sort": false,
+                    "sortable": true,
+                    "suggestions": null,
+                    "tags": [],
+                    "type": "date_month",
+                    "user_attribute_filter_types": [
+                        "datetime",
+                        "advanced_filter_datetime"
+                    ],
+                    "value_format": null,
+                    "view": "shipments",
+                    "view_label": "Shipments",
+                    "dynamic": false,
+                    "week_start_day": "monday",
+                    "original_view": "shipments",
+                    "dimension_group": "shipments.dispatched",
+                    "error": null,
+                    "field_group_variant": "Dispatched Month",
+                    "measure": false,
+                    "parameter": false,
+                    "primary_key": false,
+                    "project_name": "snowflake",
+                    "scope": "shipments",
+                    "suggest_dimension": "shipments.dispatched_month",
+                    "suggest_explore": "shipments",
+                    "suggestable": false,
+                    "is_fiscal": false,
+                    "is_timeframe": true,
+                    "can_time_filter": false,
+                    "time_interval": {
+                        "name": "month",
+                        "count": 1
+                    },
+                    "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=807",
+                    "permanent": null,
+                    "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                    "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                    "sql": "${TABLE}.dispatched_at ",
+                    "sql_case": null,
+                    "filters": null,
+                    "times_used": 0,
+                    "sorted": {
+                        "desc": true,
+                        "sort_index": 0
+                    }
+                }
+            ],
+            "table_calculations": [
+                {
+                    "label": "Percent change from previous - Shipments Count Shipments",
+                    "name": "percent_change_from_previous_shipments_count_shipments_2",
+                    "expression": "(${shipments.shipment_count} / offset(${shipments.shipment_count}, 1) -1)",
+                    "can_pivot": true,
+                    "sortable": false,
+                    "type": "number",
+                    "align": "right",
+                    "measure": true,
+                    "is_table_calculation": true,
+                    "dynamic": true,
+                    "value_format": "#,##0%",
+                    "is_numeric": true
+                }
+            ],
+            "pivots": [],
+            "measure_like": [
+                {
+                    "align": "right",
+                    "can_filter": true,
+                    "category": "measure",
+                    "default_filter_value": null,
+                    "description": "Count Unique Shipment ID. Does not Include TONUs",
+                    "enumerations": null,
+                    "field_group_label": "Counts",
+                    "fill_style": null,
+                    "fiscal_month_offset": 0,
+                    "has_allowed_values": false,
+                    "hidden": false,
+                    "is_filter": false,
+                    "is_numeric": true,
+                    "label": "Shipments Count Shipments",
+                    "label_from_parameter": null,
+                    "label_short": "Count Shipments",
+                    "map_layer": null,
+                    "name": "shipments.shipment_count",
+                    "strict_value_format": false,
+                    "requires_refresh_on_sort": false,
+                    "sortable": true,
+                    "suggestions": null,
+                    "tags": [],
+                    "type": "count_distinct",
+                    "user_attribute_filter_types": [
+                        "number",
+                        "advanced_filter_number"
+                    ],
+                    "value_format": null,
+                    "view": "shipments",
+                    "view_label": "Shipments",
+                    "dynamic": false,
+                    "week_start_day": "monday",
+                    "original_view": "shipments",
+                    "dimension_group": null,
+                    "error": null,
+                    "field_group_variant": "Count Shipments",
+                    "measure": true,
+                    "parameter": false,
+                    "primary_key": false,
+                    "project_name": "snowflake",
+                    "scope": "shipments",
+                    "suggest_dimension": "shipments.shipment_count",
+                    "suggest_explore": "shipments",
+                    "suggestable": false,
+                    "is_fiscal": false,
+                    "is_timeframe": false,
+                    "can_time_filter": false,
+                    "time_interval": null,
+                    "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=2585",
+                    "permanent": null,
+                    "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                    "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                    "sql": "${id} ",
+                    "sql_case": null,
+                    "filters": [
+                        {
+                            "field": "shipments.is_tonu",
+                            "condition": "No"
+                        }
+                    ],
+                    "times_used": 0
+                },
+                {
+                    "label": "Percent change from previous - Shipments Count Shipments",
+                    "name": "percent_change_from_previous_shipments_count_shipments_2",
+                    "expression": "(${shipments.shipment_count} / offset(${shipments.shipment_count}, 1) -1)",
+                    "can_pivot": true,
+                    "sortable": false,
+                    "type": "number",
+                    "align": "right",
+                    "measure": true,
+                    "is_table_calculation": true,
+                    "dynamic": true,
+                    "value_format": "#,##0%",
+                    "is_numeric": true
+                }
+            ],
+            "dimension_like": [
+                {
+                    "align": "left",
+                    "can_filter": true,
+                    "category": "dimension",
+                    "default_filter_value": null,
+                    "description": "The time the shipment was dispatched.",
+                    "enumerations": null,
+                    "field_group_label": "Timestamps",
+                    "fill_style": "range",
+                    "fiscal_month_offset": 0,
+                    "has_allowed_values": false,
+                    "hidden": false,
+                    "is_filter": false,
+                    "is_numeric": false,
+                    "label": "Shipments Dispatched Month",
+                    "label_from_parameter": null,
+                    "label_short": "Dispatched Month",
+                    "map_layer": null,
+                    "name": "shipments.dispatched_month",
+                    "strict_value_format": false,
+                    "requires_refresh_on_sort": false,
+                    "sortable": true,
+                    "suggestions": null,
+                    "tags": [],
+                    "type": "date_month",
+                    "user_attribute_filter_types": [
+                        "datetime",
+                        "advanced_filter_datetime"
+                    ],
+                    "value_format": null,
+                    "view": "shipments",
+                    "view_label": "Shipments",
+                    "dynamic": false,
+                    "week_start_day": "monday",
+                    "original_view": "shipments",
+                    "dimension_group": "shipments.dispatched",
+                    "error": null,
+                    "field_group_variant": "Dispatched Month",
+                    "measure": false,
+                    "parameter": false,
+                    "primary_key": false,
+                    "project_name": "snowflake",
+                    "scope": "shipments",
+                    "suggest_dimension": "shipments.dispatched_month",
+                    "suggest_explore": "shipments",
+                    "suggestable": false,
+                    "is_fiscal": false,
+                    "is_timeframe": true,
+                    "can_time_filter": false,
+                    "time_interval": {
+                        "name": "month",
+                        "count": 1
+                    },
+                    "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=807",
+                    "permanent": null,
+                    "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                    "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                    "sql": "${TABLE}.dispatched_at ",
+                    "sql_case": null,
+                    "filters": null,
+                    "times_used": 0,
+                    "sorted": {
+                        "desc": true,
+                        "sort_index": 0
+                    }
+                }
+            ]
+        },
+        "fill_fields": [
+            "shipments.dispatched_month"
+        ],
+        "forecast_result": null,
+        "has_row_totals": false,
+        "has_totals": false,
+        "id": "query-result-49:{\"hidden_points_if_no\":[],\"hidden_fields\":[]}",
+        "null_sort_treatment": "high",
+        "number_format": "1,234.56",
+        "ran_at": "2022-06-29T16:06:28+00:00",
+        "sql": "-- raw sql results do not include filled-in values for 'shipments.dispatched_month'\n\n\nSELECT\n    (TO_CHAR(DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.dispatched_at  AS TIMESTAMP_NTZ))), 'YYYY-MM')) AS \"shipments.dispatched_month\",\n    COUNT(DISTINCT CASE WHEN (CASE WHEN shipments.is_tonu  THEN 1 ELSE 0 END\n) = 0 THEN shipments.id  ELSE NULL END) AS \"shipments.shipment_count\"\nFROM stark_prod.recreated_tables.shipments  AS shipments\nWHERE ((( shipments.dispatched_at  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( shipments.dispatched_at  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', 13, DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    (DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.dispatched_at  AS TIMESTAMP_NTZ))))\nORDER BY\n    1 DESC\nFETCH NEXT 500 ROWS ONLY",
+        "sql_explain": "EXPLAIN SELECT\n    (TO_CHAR(DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.dispatched_at  AS TIMESTAMP_NTZ))), 'YYYY-MM')) AS \"shipments.dispatched_month\",\n    COUNT(DISTINCT CASE WHEN (CASE WHEN shipments.is_tonu  THEN 1 ELSE 0 END\n) = 0 THEN shipments.id  ELSE NULL END) AS \"shipments.shipment_count\"\nFROM stark_prod.recreated_tables.shipments  AS shipments\nWHERE ((( shipments.dispatched_at  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( shipments.dispatched_at  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', 13, DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    (DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.dispatched_at  AS TIMESTAMP_NTZ))))\nORDER BY\n    1 DESC\nFETCH NEXT 500 ROWS ONLY",
+        "supports_pivot_in_db": true,
+        "timezone": "America/New_York",
+        "is_local": true,
+        "table_calcs_complete": true,
+        "tracked_attributes": {
+            "result.drill_menu_build_time": 0.044863,
+            "result.from_cache": true,
+            "result.sql.length": 1188,
+            "result.supports_pivot_in_db": true
+        },
+        "sorts": []
+    }
+}
