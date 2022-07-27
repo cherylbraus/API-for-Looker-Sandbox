@@ -3,6 +3,9 @@ const dataRoutes = (app, fs) => {
   const dataPathOne = './data/dataOnePivot.json';
   const dataPathTwoPiv = './data/dataTwoPivots.json';
   const dataPathTwo = './data/dataTwoDimensions.json';
+  const dataPathColoredBar = './data/dataColoredBar.json';
+  const dataPathViolin = './data/dataViolin.json';
+  const dataPathSplitViolin = './data/dataSplitViolin.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -34,6 +37,38 @@ const dataRoutes = (app, fs) => {
       res.send(JSON.parse(data));
     });
   });
+
+  app.get('/dataColoredBar', (req, res) => {
+    fs.readFile(dataPathColoredBar, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataViolin', (req, res) => {
+    fs.readFile(dataPathViolin, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataSplitViolin', (req, res) => {
+    fs.readFile(dataPathSplitViolin, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+
 };
 
 module.exports = dataRoutes;
