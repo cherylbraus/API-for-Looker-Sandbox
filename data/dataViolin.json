@@ -1,4 +1,4 @@
-"queryResponse":{ {
+{"queryResponse":{ 
     "parent_id": "719252634537e5c9387ddd55034f4bf1",
     "sql_changed": true,
     "aggregate_table_used_info": null,

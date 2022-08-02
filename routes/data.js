@@ -7,6 +7,7 @@ const dataRoutes = (app, fs) => {
   const dataPathViolin = './data/dataViolin.json';
   const dataPathSplitViolin = './data/dataSplitViolin.json';
   const dataPathBullet = './data/dataBullet.json';
+  const dataPathLineBad = './data/dataLineBad.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -71,6 +72,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataBullet', (req, res) => {
     fs.readFile(dataPathBullet, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataLineBad', (req, res) => {
+    fs.readFile(dataPathLineBad, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
