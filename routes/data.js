@@ -6,6 +6,7 @@ const dataRoutes = (app, fs) => {
   const dataPathColoredBar = './data/dataColoredBar.json';
   const dataPathViolin = './data/dataViolin.json';
   const dataPathSplitViolin = './data/dataSplitViolin.json';
+  const dataPathBullet = './data/dataBullet.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -60,6 +61,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataSplitViolin', (req, res) => {
     fs.readFile(dataPathSplitViolin, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataBullet', (req, res) => {
+    fs.readFile(dataPathBullet, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
