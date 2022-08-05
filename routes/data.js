@@ -9,6 +9,7 @@ const dataRoutes = (app, fs) => {
   const dataPathBullet = './data/dataBullet.json';
   const dataPathLineBad = './data/dataLineBad.json';
   const dataPathBarBins = './data/dataBarBins.json';
+  
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
