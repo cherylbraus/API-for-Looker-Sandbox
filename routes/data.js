@@ -6,10 +6,12 @@ const dataRoutes = (app, fs) => {
   const dataPathColoredBar = './data/dataColoredBar.json';
   const dataPathViolin = './data/dataViolin.json';
   const dataPathSplitViolin = './data/dataSplitViolin.json';
+  const dataPathSplitViolinRegion = './data/dataSplitViolinRegion.json';
   const dataPathBullet = './data/dataBullet.json';
   const dataPathLineBad = './data/dataLineBad.json';
   const dataPathBarBins = './data/dataBarBins.json';
-  
+  const dataPathColoredBarTwo = './data/dataColoredBarTwo.json';
+
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -72,6 +74,16 @@ const dataRoutes = (app, fs) => {
     });
   });
 
+  app.get('/dataSplitViolinRegion', (req, res) => {
+    fs.readFile(dataPathSplitViolinRegion, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
   app.get('/dataBullet', (req, res) => {
     fs.readFile(dataPathBullet, 'utf8', (err, data) => {
       if (err) {
@@ -94,6 +106,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataBarBins', (req, res) => {
     fs.readFile(dataPathBarBins, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataColoredBarTwo', (req, res) => {
+    fs.readFile(dataPathColoredBarTwo, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
