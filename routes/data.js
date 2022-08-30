@@ -11,6 +11,7 @@ const dataRoutes = (app, fs) => {
   const dataPathLineBad = './data/dataLineBad.json';
   const dataPathBarBins = './data/dataBarBins.json';
   const dataPathColoredBarTwo = './data/dataColoredBarTwo.json';
+  const dataPathGeo = './data/dataGeo.json';
 
 
   // READ
@@ -116,6 +117,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataColoredBarTwo', (req, res) => {
     fs.readFile(dataPathColoredBarTwo, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataGeo', (req, res) => {
+    fs.readFile(dataPathGeo, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
