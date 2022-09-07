@@ -12,6 +12,8 @@ const dataRoutes = (app, fs) => {
   const dataPathBarBins = './data/dataBarBins.json';
   const dataPathColoredBarTwo = './data/dataColoredBarTwo.json';
   const dataPathGeo = './data/dataGeo.json';
+  const dataPathStateAlbers = './data/dataStateAlbers.json';
+  const dataPathInteractions = './data/dataInteractions.json';
 
 
   // READ
@@ -127,6 +129,26 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataGeo', (req, res) => {
     fs.readFile(dataPathGeo, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataStateAlbers', (req, res) => {
+    fs.readFile(dataPathStateAlbers, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataInteractions', (req, res) => {
+    fs.readFile(dataPathInteractions, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
