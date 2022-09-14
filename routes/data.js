@@ -14,6 +14,7 @@ const dataRoutes = (app, fs) => {
   const dataPathGeo = './data/dataGeo.json';
   const dataPathStateAlbers = './data/dataStateAlbers.json';
   const dataPathInteractions = './data/dataInteractions.json';
+  const dataPathDivergingBar = './data/dataDivergingBar.json';
 
 
   // READ
@@ -149,6 +150,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataInteractions', (req, res) => {
     fs.readFile(dataPathInteractions, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataDivergingBar', (req, res) => {
+    fs.readFile(dataPathDivergingBar, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
