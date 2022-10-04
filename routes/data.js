@@ -15,6 +15,9 @@ const dataRoutes = (app, fs) => {
   const dataPathStateAlbers = './data/dataStateAlbers.json';
   const dataPathInteractions = './data/dataInteractions.json';
   const dataPathDivergingBar = './data/dataDivergingBar.json';
+  const dataPathTopTextTile = './data/dataTopTextTile.json';
+  const dataPathBulletMTD = './data/dataBulletMTD.json';
+  const dataPathWeekDay = './data/dataWeekDay.json';
 
 
   // READ
@@ -168,6 +171,35 @@ const dataRoutes = (app, fs) => {
     });
   });
 
+  app.get('/dataTopTextTile', (req, res) => {
+    fs.readFile(dataPathTopTextTile, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataBulletMTD', (req, res) => {
+    fs.readFile(dataPathBulletMTD, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataWeekDay', (req, res) => {
+    fs.readFile(dataPathWeekDay, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
 
 };
 

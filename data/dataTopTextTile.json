@@ -1,0 +1,592 @@
+{ "queryResponse": {
+    "parent_id": "9200a48e9243115bbc8b732d885a7f3b",
+    "sql_changed": true,
+    "aggregate_table_used_info": null,
+    "added_params": null,
+    "cached_derived": true,
+    "data": [
+        {
+            "shipper_rate_date_extended.date_month": {
+                "value": "2022-09",
+                "links": [
+                    {
+                        "label": "by  Week",
+                        "label_prefix": "by",
+                        "label_value": " Week",
+                        "url": "/explore/snowflake_marketplace/shipper_rate_date_extended?fields=filtered_budget_volume_ftl,filtered_budget_revenue_ftl,filtered_budget_margin_ftl,shipments_actual.volume,shipments_actual.revenue,shipments_actual.margin,shipper_rate_date_extended.date_week&f[shipper_rate_date_extended.date_month]=2022-09&limit=500&column_limit=50&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.volume%7D%2F%24%7Bfiltered_budget_volume_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Volume+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_volume_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22GoGlbkYn1M%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.revenue%7D%2F%24%7Bfiltered_budget_revenue_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Revenue+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_revenue_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22FnOFQ8fUb0%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.margin%7D%2F%24%7Bfiltered_budget_margin_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Margin+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_margin_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%225zJ8sEO3jf%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Margin+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_margin%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_margin_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipments_actual.finance_record_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22R659z6A0NF%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Revenue+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_revenue%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_revenue_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%226DjlKMJARr%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Volume+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_volume%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_volume_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22IH2JdB9a1H%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bshipments_actual.margin%7D%2F%24%7Bshipments_actual.revenue%7D%22%2C%22label%22%3A%22Margin+%25%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22margin%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22NMAosXcw6D%22%7D%5D",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-09",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-09"
+                    },
+                    {
+                        "label": "by  Date",
+                        "label_prefix": "by",
+                        "label_value": " Date",
+                        "url": "/explore/snowflake_marketplace/shipper_rate_date_extended?fields=filtered_budget_volume_ftl,filtered_budget_revenue_ftl,filtered_budget_margin_ftl,shipments_actual.volume,shipments_actual.revenue,shipments_actual.margin,shipper_rate_date_extended.date_date&f[shipper_rate_date_extended.date_month]=2022-09&limit=500&column_limit=50&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.volume%7D%2F%24%7Bfiltered_budget_volume_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Volume+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_volume_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22GoGlbkYn1M%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.revenue%7D%2F%24%7Bfiltered_budget_revenue_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Revenue+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_revenue_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22FnOFQ8fUb0%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.margin%7D%2F%24%7Bfiltered_budget_margin_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Margin+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_margin_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%225zJ8sEO3jf%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Margin+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_margin%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_margin_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipments_actual.finance_record_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22R659z6A0NF%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Revenue+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_revenue%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_revenue_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%226DjlKMJARr%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Volume+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_volume%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_volume_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22IH2JdB9a1H%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bshipments_actual.margin%7D%2F%24%7Bshipments_actual.revenue%7D%22%2C%22label%22%3A%22Margin+%25%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22margin%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22NMAosXcw6D%22%7D%5D",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-09",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-09"
+                    }
+                ]
+            },
+            "filtered_budget_volume_ftl": {
+                "value": 19429.714278,
+                "rendered": "19,430"
+            },
+            "filtered_budget_revenue_ftl": {
+                "value": 35159628.000006,
+                "rendered": "$35,159,628"
+            },
+            "filtered_budget_margin_ftl": {
+                "value": 3413784.857148,
+                "rendered": "$3,413,785"
+            },
+            "shipments_actual.volume": {
+                "value": 11505,
+                "rendered": "11,505",
+                "filterable_value": "11505.0"
+            },
+            "shipments_actual.revenue": {
+                "value": 19396567.050083,
+                "rendered": "$19,396,567.05"
+            },
+            "shipments_actual.margin": {
+                "value": 2642933.145867,
+                "rendered": "$2,642,933.15"
+            },
+            "pace_to_ytd_volume_target": {
+                "value": -0.40786571354644396,
+                "rendered": "-41%"
+            },
+            "pace_to_ytd_revenue_target": {
+                "value": -0.44832843367740716,
+                "rendered": "-45%"
+            },
+            "pace_to_ytd_margin_target": {
+                "value": -0.22580559219100815,
+                "rendered": "-23%"
+            },
+            "margin": {
+                "value": 0.13625777896896918,
+                "rendered": "14%"
+            }
+        }
+    ],
+    "drill_menu_build_time": 0.043879999999999995,
+    "expired": false,
+    "fields": {
+        "measures": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": "FTL",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Filtered Budget - Volume | FTL",
+                "label_from_parameter": null,
+                "label_short": "Filtered Budget - Volume | FTL",
+                "map_layer": null,
+                "name": "filtered_budget_volume_ftl",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "sum_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": "#,##0",
+                "view": "budget_product_daily",
+                "view_label": "",
+                "dynamic": true,
+                "week_start_day": "monday",
+                "original_view": "budget_product_daily",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Filtered Budget - Volume | FTL",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "budget_product_daily",
+                "suggest_dimension": "filtered_budget_volume_ftl",
+                "suggest_explore": "shipper_rate_date_extended",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": null,
+                "permanent": null,
+                "source_file": "MarketPlace/Core/ironheart_poc/budget_product_daily.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/ironheart_poc/budget_product_daily.view.lkml",
+                "sql": "budget_product_daily.\"TOTAL_FTL_VOLUME\" ",
+                "sql_case": null,
+                "filters": [
+                    {
+                        "field": "shipper_rate_date_extended.date_date",
+                        "condition": "before 1 days ago"
+                    }
+                ],
+                "times_used": 0
+            },
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "Count Unique Shipment ID. Does not Include TONUs",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Measure | Actual Volume Actual | FTL",
+                "label_from_parameter": null,
+                "label_short": "Volume Actual | FTL",
+                "map_layer": null,
+                "name": "shipments_actual.volume",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "sum_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": "#,##0",
+                "view": "shipments_actual",
+                "view_label": "Measure | Actual",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipments_actual",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Volume Actual | FTL",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipments_actual",
+                "suggest_dimension": "shipments_actual.volume",
+                "suggest_explore": "shipper_rate_date_extended",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fironheart_poc%2Fshipments_actual.view.lkml?line=122",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/ironheart_poc/shipments_actual.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/ironheart_poc/shipments_actual.view.lkml",
+                "sql": "${shipment_count} ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        "dimensions": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": " Date",
+                "fill_style": "range",
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Dimension | Date  Month",
+                "label_from_parameter": null,
+                "label_short": " Month",
+                "map_layer": null,
+                "name": "shipper_rate_date_extended.date_month",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "date_month",
+                "user_attribute_filter_types": [
+                    "datetime",
+                    "advanced_filter_datetime"
+                ],
+                "value_format": null,
+                "view": "shipper_rate_date_extended",
+                "view_label": "Dimension | Date",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipper_rate_date_extended",
+                "dimension_group": "shipper_rate_date_extended.date",
+                "error": null,
+                "field_group_variant": "Month",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipper_rate_date_extended",
+                "suggest_dimension": "shipper_rate_date_extended.date_month",
+                "suggest_explore": "shipper_rate_date_extended",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": true,
+                "can_time_filter": false,
+                "time_interval": {
+                    "name": "month",
+                    "count": 1
+                },
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fironheart_poc%2Fshipper_rate_date_extended.view.lkml?line=124",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/ironheart_poc/shipper_rate_date_extended.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/ironheart_poc/shipper_rate_date_extended.view.lkml",
+                "sql": "${TABLE}.\"ACTUAL_DATE\" ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": true,
+                    "sort_index": 0
+                }
+            }
+        ],
+        "table_calculations": [
+            {
+                "label": "Pace to YTD Volume Target",
+                "name": "pace_to_ytd_volume_target",
+                "expression": "(${shipments_actual.volume}/${filtered_budget_volume_ftl})-1",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": "#,##0%",
+                "is_numeric": true
+            }
+        ],
+        "pivots": [],
+        "measure_like": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": "FTL",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Filtered Budget - Volume | FTL",
+                "label_from_parameter": null,
+                "label_short": "Filtered Budget - Volume | FTL",
+                "map_layer": null,
+                "name": "filtered_budget_volume_ftl",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "sum_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": "#,##0",
+                "view": "budget_product_daily",
+                "view_label": "",
+                "dynamic": true,
+                "week_start_day": "monday",
+                "original_view": "budget_product_daily",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Filtered Budget - Volume | FTL",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "budget_product_daily",
+                "suggest_dimension": "filtered_budget_volume_ftl",
+                "suggest_explore": "shipper_rate_date_extended",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": null,
+                "permanent": null,
+                "source_file": "MarketPlace/Core/ironheart_poc/budget_product_daily.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/ironheart_poc/budget_product_daily.view.lkml",
+                "sql": "budget_product_daily.\"TOTAL_FTL_VOLUME\" ",
+                "sql_case": null,
+                "filters": [
+                    {
+                        "field": "shipper_rate_date_extended.date_date",
+                        "condition": "before 1 days ago"
+                    }
+                ],
+                "times_used": 0
+            },
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "Count Unique Shipment ID. Does not Include TONUs",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Measure | Actual Volume Actual | FTL",
+                "label_from_parameter": null,
+                "label_short": "Volume Actual | FTL",
+                "map_layer": null,
+                "name": "shipments_actual.volume",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "sum_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": "#,##0",
+                "view": "shipments_actual",
+                "view_label": "Measure | Actual",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipments_actual",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Volume Actual | FTL",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipments_actual",
+                "suggest_dimension": "shipments_actual.volume",
+                "suggest_explore": "shipper_rate_date_extended",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fironheart_poc%2Fshipments_actual.view.lkml?line=122",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/ironheart_poc/shipments_actual.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/ironheart_poc/shipments_actual.view.lkml",
+                "sql": "${shipment_count} ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            },
+            {
+                "label": "Pace to YTD Volume Target",
+                "name": "pace_to_ytd_volume_target",
+                "expression": "(${shipments_actual.volume}/${filtered_budget_volume_ftl})-1",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": "#,##0%",
+                "is_numeric": true
+            }
+        ],
+        "dimension_like": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": " Date",
+                "fill_style": "range",
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Dimension | Date  Month",
+                "label_from_parameter": null,
+                "label_short": " Month",
+                "map_layer": null,
+                "name": "shipper_rate_date_extended.date_month",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "date_month",
+                "user_attribute_filter_types": [
+                    "datetime",
+                    "advanced_filter_datetime"
+                ],
+                "value_format": null,
+                "view": "shipper_rate_date_extended",
+                "view_label": "Dimension | Date",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipper_rate_date_extended",
+                "dimension_group": "shipper_rate_date_extended.date",
+                "error": null,
+                "field_group_variant": "Month",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipper_rate_date_extended",
+                "suggest_dimension": "shipper_rate_date_extended.date_month",
+                "suggest_explore": "shipper_rate_date_extended",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": true,
+                "can_time_filter": false,
+                "time_interval": {
+                    "name": "month",
+                    "count": 1
+                },
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fironheart_poc%2Fshipper_rate_date_extended.view.lkml?line=124",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/ironheart_poc/shipper_rate_date_extended.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/ironheart_poc/shipper_rate_date_extended.view.lkml",
+                "sql": "${TABLE}.\"ACTUAL_DATE\" ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": true,
+                    "sort_index": 0
+                }
+            }
+        ]
+    },
+    "fill_fields": [
+        "shipper_rate_date_extended.date_month"
+    ],
+    "forecast_result": null,
+    "has_row_totals": false,
+    "has_totals": false,
+    "id": "query-result-9:{\"hidden_points_if_no\":[],\"hidden_fields\":[\"pace_to_ytd_target\",\"filtered_budget_revenue_ftl\",\"filtered_budget_margin_ftl\",\"shipments_actual.revenue\",\"shipments_actual.margin\",\"pace_to_ytd_revenue_target\",\"pace_to_ytd_margin_target\",\"margin\"]}",
+    "null_sort_treatment": "high",
+    "number_format": "1,234.56",
+    "ran_at": "2022-09-29T16:26:23+00:00",
+    "runtime": "4.034",
+    "sql": "-- raw sql results do not include filled-in values for 'shipper_rate_date_extended.date_month'\n\n\n-- use existing shipper_rate_date_extended in LOOKER_SCRATCH.LR$YVRD41664410031195_shipper_rate_date_extended\n-- use existing budget_product_daily in LOOKER_SCRATCH.LR$YV4TI1664410049053_budget_product_daily\n-- use existing shipments_actual in LOOKER_SCRATCH.LR$YV2F51664410088272_shipments_actual\nSELECT\n    (TO_CHAR(DATE_TRUNC('month', shipper_rate_date_extended.\"ACTUAL_DATE\" ), 'YYYY-MM')) AS \"shipper_rate_date_extended.date_month\",\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.\"TOTAL_FTL_VOLUME\"   ELSE NULL END\n,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS filtered_budget_volume_ftl,\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.\"TOTAL_FTL_REVENUE\"   ELSE NULL END\n,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS filtered_budget_revenue_ftl,\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE(CASE WHEN  (shipments_actual.finance_record_date  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.\"TOTAL_FTL_MARGIN\"   ELSE NULL END\n,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5(CASE WHEN  (shipments_actual.finance_record_date  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5(CASE WHEN  (shipments_actual.finance_record_date  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS filtered_budget_margin_ftl,\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE( shipments_actual.shipment_count ,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS \"shipments_actual.volume\",\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE( shipments_actual.total_revenue_sum ,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS \"shipments_actual.revenue\",\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE( shipments_actual.total_margin_sum ,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS \"shipments_actual.margin\"\nFROM LOOKER_SCRATCH.LR$YVRD41664410031195_shipper_rate_date_extended AS shipper_rate_date_extended\nLEFT JOIN LOOKER_SCRATCH.LR$YV4TI1664410049053_budget_product_daily AS budget_product_daily ON (TO_CHAR(TO_DATE(budget_product_daily.actual_date ), 'YYYY-MM-DD')) = (TO_CHAR(TO_DATE(shipper_rate_date_extended.\"ACTUAL_DATE\" ), 'YYYY-MM-DD'))\nLEFT JOIN LOOKER_SCRATCH.LR$YV2F51664410088272_shipments_actual AS shipments_actual ON shipments_actual.finance_record_date_skey = shipper_rate_date_extended.date_skey and\n      shipments_actual.shipper_application_id = (shipper_rate_date_extended.\"SHIPPER_APPLICATION_ID\") and\n      shipments_actual.transfix_lane_id = (shipper_rate_date_extended.\"TRANSFIX_LANE_ID\") and\n      shipments_actual.is_drop_trailer = (shipper_rate_date_extended.\"IS_DROP_TRAILER\")\nWHERE ((( shipper_rate_date_extended.\"ACTUAL_DATE\"  ) >= ((DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AND ( shipper_rate_date_extended.\"ACTUAL_DATE\"  ) < ((DATEADD('month', 1, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))))))\nGROUP BY\n    (DATE_TRUNC('month', shipper_rate_date_extended.\"ACTUAL_DATE\" ))\nORDER BY\n    1 DESC\nFETCH NEXT 500 ROWS ONLY",
+    "sql_explain": "EXPLAIN SELECT\n    (TO_CHAR(DATE_TRUNC('month', shipper_rate_date_extended.\"ACTUAL_DATE\" ), 'YYYY-MM')) AS \"shipper_rate_date_extended.date_month\",\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.\"TOTAL_FTL_VOLUME\"   ELSE NULL END\n,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS filtered_budget_volume_ftl,\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.\"TOTAL_FTL_REVENUE\"   ELSE NULL END\n,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5(CASE WHEN  (shipper_rate_date_extended.\"ACTUAL_DATE\"  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS filtered_budget_revenue_ftl,\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE(CASE WHEN  (shipments_actual.finance_record_date  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.\"TOTAL_FTL_MARGIN\"   ELSE NULL END\n,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5(CASE WHEN  (shipments_actual.finance_record_date  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5(CASE WHEN  (shipments_actual.finance_record_date  < (DATEADD('day', -1, DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))))  THEN  budget_product_daily.actual_date   ELSE NULL END\n), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS filtered_budget_margin_ftl,\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE( shipments_actual.shipment_count ,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS \"shipments_actual.volume\",\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE( shipments_actual.total_revenue_sum ,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS \"shipments_actual.revenue\",\n    COALESCE(CAST( ( SUM(DISTINCT (CAST(FLOOR(COALESCE( shipments_actual.total_margin_sum ,0)*(1000000*1.0)) AS DECIMAL(38,0))) + (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0) ) - SUM(DISTINCT (TO_NUMBER(MD5( shipments_actual.finance_record_date_skey  || '-' ||  shipments_actual.shipper_application_id  || '-' ||  shipments_actual.is_drop_trailer  ||  shipments_actual.transfix_lane_id   ), 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') % 1.0e27)::NUMERIC(38, 0)) )  AS DOUBLE PRECISION) / CAST((1000000*1.0) AS DOUBLE PRECISION), 0) AS \"shipments_actual.margin\"\nFROM LOOKER_SCRATCH.LR$YVRD41664410031195_shipper_rate_date_extended AS shipper_rate_date_extended\nLEFT JOIN LOOKER_SCRATCH.LR$YV4TI1664410049053_budget_product_daily AS budget_product_daily ON (TO_CHAR(TO_DATE(budget_product_daily.actual_date ), 'YYYY-MM-DD')) = (TO_CHAR(TO_DATE(shipper_rate_date_extended.\"ACTUAL_DATE\" ), 'YYYY-MM-DD')) \nLEFT JOIN LOOKER_SCRATCH.LR$YV2F51664410088272_shipments_actual AS shipments_actual ON shipments_actual.finance_record_date_skey = shipper_rate_date_extended.date_skey and\n      shipments_actual.shipper_application_id = (shipper_rate_date_extended.\"SHIPPER_APPLICATION_ID\") and\n      shipments_actual.transfix_lane_id = (shipper_rate_date_extended.\"TRANSFIX_LANE_ID\") and\n      shipments_actual.is_drop_trailer = (shipper_rate_date_extended.\"IS_DROP_TRAILER\") \nWHERE ((( shipper_rate_date_extended.\"ACTUAL_DATE\"  ) >= ((DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AND ( shipper_rate_date_extended.\"ACTUAL_DATE\"  ) < ((DATEADD('month', 1, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))))))\nGROUP BY\n    (DATE_TRUNC('month', shipper_rate_date_extended.\"ACTUAL_DATE\" ))\nORDER BY\n    1 DESC\nFETCH NEXT 500 ROWS ONLY",
+    "supports_pivot_in_db": true,
+    "timezone": "America/New_York",
+    "is_local": true,
+    "table_calcs_complete": true,
+    "tracked_attributes": {
+        "result.drill_menu_build_time": 0.043879999999999995,
+        "result.from_cache": false,
+        "result.runtime": "4.034",
+        "result.sql.length": 7473,
+        "result.supports_pivot_in_db": true
+    },
+    "sorts": []
+}, "data": [
+    {
+        "shipper_rate_date_extended.date_month": {
+            "value": "2022-09",
+            "links": [
+                {
+                    "label": "by  Week",
+                    "label_prefix": "by",
+                    "label_value": " Week",
+                    "url": "/explore/snowflake_marketplace/shipper_rate_date_extended?fields=filtered_budget_volume_ftl,filtered_budget_revenue_ftl,filtered_budget_margin_ftl,shipments_actual.volume,shipments_actual.revenue,shipments_actual.margin,shipper_rate_date_extended.date_week&f[shipper_rate_date_extended.date_month]=2022-09&limit=500&column_limit=50&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.volume%7D%2F%24%7Bfiltered_budget_volume_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Volume+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_volume_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22GoGlbkYn1M%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.revenue%7D%2F%24%7Bfiltered_budget_revenue_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Revenue+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_revenue_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22FnOFQ8fUb0%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.margin%7D%2F%24%7Bfiltered_budget_margin_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Margin+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_margin_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%225zJ8sEO3jf%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Margin+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_margin%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_margin_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipments_actual.finance_record_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22R659z6A0NF%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Revenue+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_revenue%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_revenue_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%226DjlKMJARr%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Volume+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_volume%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_volume_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22IH2JdB9a1H%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bshipments_actual.margin%7D%2F%24%7Bshipments_actual.revenue%7D%22%2C%22label%22%3A%22Margin+%25%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22margin%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22NMAosXcw6D%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-09",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-09"
+                },
+                {
+                    "label": "by  Date",
+                    "label_prefix": "by",
+                    "label_value": " Date",
+                    "url": "/explore/snowflake_marketplace/shipper_rate_date_extended?fields=filtered_budget_volume_ftl,filtered_budget_revenue_ftl,filtered_budget_margin_ftl,shipments_actual.volume,shipments_actual.revenue,shipments_actual.margin,shipper_rate_date_extended.date_date&f[shipper_rate_date_extended.date_month]=2022-09&limit=500&column_limit=50&dynamic_fields=%5B%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.volume%7D%2F%24%7Bfiltered_budget_volume_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Volume+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_volume_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22GoGlbkYn1M%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.revenue%7D%2F%24%7Bfiltered_budget_revenue_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Revenue+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_revenue_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22FnOFQ8fUb0%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%28%24%7Bshipments_actual.margin%7D%2F%24%7Bfiltered_budget_margin_ftl%7D%29-1%22%2C%22label%22%3A%22Pace+to+YTD+Margin+Target%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22pace_to_ytd_margin_target%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%225zJ8sEO3jf%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Margin+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_margin%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_margin_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipments_actual.finance_record_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22R659z6A0NF%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Revenue+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_revenue%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_revenue_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%226DjlKMJARr%22%7D%2C%7B%22category%22%3A%22measure%22%2C%22expression%22%3Anull%2C%22label%22%3A%22Filtered+Budget+-+Volume+%7C+FTL%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22based_on%22%3A%22budget_product_daily.total_ftl_volume%22%2C%22_kind_hint%22%3A%22measure%22%2C%22measure%22%3A%22filtered_budget_volume_ftl%22%2C%22type%22%3A%22sum_distinct%22%2C%22_type_hint%22%3A%22number%22%2C%22filters%22%3A%7B%22shipper_rate_date_extended.date_date%22%3A%22before+1+days+ago%22%7D%2C%22id%22%3A%22IH2JdB9a1H%22%7D%2C%7B%22category%22%3A%22table_calculation%22%2C%22expression%22%3A%22%24%7Bshipments_actual.margin%7D%2F%24%7Bshipments_actual.revenue%7D%22%2C%22label%22%3A%22Margin+%25%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22table_calculation%22%3A%22margin%22%2C%22_type_hint%22%3A%22number%22%2C%22id%22%3A%22NMAosXcw6D%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-09",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-09"
+                }
+            ]
+        },
+        "filtered_budget_volume_ftl": {
+            "value": 19429.714278,
+            "rendered": "19,430"
+        },
+        "filtered_budget_revenue_ftl": {
+            "value": 35159628.000006,
+            "rendered": "$35,159,628"
+        },
+        "filtered_budget_margin_ftl": {
+            "value": 3413784.857148,
+            "rendered": "$3,413,785"
+        },
+        "shipments_actual.volume": {
+            "value": 11505,
+            "rendered": "11,505",
+            "filterable_value": "11505.0"
+        },
+        "shipments_actual.revenue": {
+            "value": 19396567.050083,
+            "rendered": "$19,396,567.05"
+        },
+        "shipments_actual.margin": {
+            "value": 2642933.145867,
+            "rendered": "$2,642,933.15"
+        },
+        "pace_to_ytd_volume_target": {
+            "value": -0.40786571354644396,
+            "rendered": "-41%"
+        },
+        "pace_to_ytd_revenue_target": {
+            "value": -0.44832843367740716,
+            "rendered": "-45%"
+        },
+        "pace_to_ytd_margin_target": {
+            "value": -0.22580559219100815,
+            "rendered": "-23%"
+        },
+        "margin": {
+            "value": 0.13625777896896918,
+            "rendered": "14%"
+        }
+    }
+]}
