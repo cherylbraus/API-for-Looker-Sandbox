@@ -18,6 +18,7 @@ const dataRoutes = (app, fs) => {
   const dataPathTopTextTile = './data/dataTopTextTile.json';
   const dataPathBulletMTD = './data/dataBulletMTD.json';
   const dataPathWeekDay = './data/dataWeekDay.json';
+  const dataPathWeekCumulative = './data/dataWeekCumulative.json';
 
 
   // READ
@@ -193,6 +194,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataWeekDay', (req, res) => {
     fs.readFile(dataPathWeekDay, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataWeekCumulative', (req, res) => {
+    fs.readFile(dataPathWeekCumulative, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
