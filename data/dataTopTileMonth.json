@@ -1,6 +1,6 @@
 { "queryResponse": {
     "parent_id": "aac63aa1a898aa310e0fe4d6395e7c43",
-    "sql_changed": true,
+    "sql_changed": false,
     "aggregate_table_used_info": null,
     "added_params": null,
     "cached_derived": true,
@@ -78,6 +78,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 100860.382056,
+                "rendered": "100860.382056"
+            },
+            "actual_revenue_calc": {
+                "value": 701836.462052,
+                "rendered": "701836.462052"
             }
         },
         {
@@ -156,6 +164,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 49244.62517,
+                "rendered": "49244.62517"
+            },
+            "actual_revenue_calc": {
+                "value": 201931.645189,
+                "rendered": "201931.645189"
             }
         },
         {
@@ -234,6 +250,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 63346.902766,
+                "rendered": "63346.902766"
+            },
+            "actual_revenue_calc": {
+                "value": 336743.144406,
+                "rendered": "336743.144406"
             }
         },
         {
@@ -309,6 +333,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 109082.700066,
+                "rendered": "109082.700066"
+            },
+            "actual_revenue_calc": {
+                "value": 855721.784598,
+                "rendered": "855721.784598"
             }
         },
         {
@@ -384,6 +416,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 96034.357926,
+                "rendered": "96034.357926"
+            },
+            "actual_revenue_calc": {
+                "value": 756199.987556,
+                "rendered": "756199.987556"
             }
         },
         {
@@ -459,6 +499,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 111274.936944,
+                "rendered": "111274.936944"
+            },
+            "actual_revenue_calc": {
+                "value": 760729.45296,
+                "rendered": "760729.45296"
             }
         },
         {
@@ -534,6 +582,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 121971.077828,
+                "rendered": "121971.077828"
+            },
+            "actual_revenue_calc": {
+                "value": 742758.504733,
+                "rendered": "742758.504733"
             }
         },
         {
@@ -609,6 +665,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 128374.868215,
+                "rendered": "128374.868215"
+            },
+            "actual_revenue_calc": {
+                "value": 816022.371802,
+                "rendered": "816022.371802"
             }
         },
         {
@@ -687,6 +751,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 88820.834985,
+                "rendered": "88820.834985"
+            },
+            "actual_revenue_calc": {
+                "value": 310066.487513,
+                "rendered": "310066.487513"
             }
         },
         {
@@ -765,6 +837,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 73547.765281,
+                "rendered": "73547.765281"
+            },
+            "actual_revenue_calc": {
+                "value": 391064.147728,
+                "rendered": "391064.147728"
             }
         },
         {
@@ -840,6 +920,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 128949.644366,
+                "rendered": "128949.644366"
+            },
+            "actual_revenue_calc": {
+                "value": 898923.329498,
+                "rendered": "898923.329498"
             }
         },
         {
@@ -915,6 +1003,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 90109.421819,
+                "rendered": "90109.421819"
+            },
+            "actual_revenue_calc": {
+                "value": 805163.502353,
+                "rendered": "805163.502353"
             }
         },
         {
@@ -990,6 +1086,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 101708.857806,
+                "rendered": "101708.857806"
+            },
+            "actual_revenue_calc": {
+                "value": 764011.672525,
+                "rendered": "764011.672525"
             }
         },
         {
@@ -1065,6 +1169,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 74801.672765,
+                "rendered": "74801.672765"
+            },
+            "actual_revenue_calc": {
+                "value": 638411.284065,
+                "rendered": "638411.284065"
             }
         },
         {
@@ -1140,6 +1252,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 99020.83675,
+                "rendered": "99020.83675"
+            },
+            "actual_revenue_calc": {
+                "value": 801695.601261,
+                "rendered": "801695.601261"
             }
         },
         {
@@ -1218,6 +1338,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 35491.551736,
+                "rendered": "35491.551736"
+            },
+            "actual_revenue_calc": {
+                "value": 199551.151765,
+                "rendered": "199551.151765"
             }
         },
         {
@@ -1296,6 +1424,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 70344.359923,
+                "rendered": "70344.359923"
+            },
+            "actual_revenue_calc": {
+                "value": 397483.143968,
+                "rendered": "397483.143968"
             }
         },
         {
@@ -1372,6 +1508,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 102841.919119,
+                "rendered": "102841.919119"
+            },
+            "actual_revenue_calc": {
+                "value": 897876.766042,
+                "rendered": "897876.766042"
             }
         },
         {
@@ -1448,6 +1592,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 103530.610737,
+                "rendered": "103530.610737"
+            },
+            "actual_revenue_calc": {
+                "value": 849194.539479,
+                "rendered": "849194.539479"
             }
         },
         {
@@ -1524,6 +1676,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 112161.857494,
+                "rendered": "112161.857494"
+            },
+            "actual_revenue_calc": {
+                "value": 891273.556213,
+                "rendered": "891273.556213"
             }
         },
         {
@@ -1600,6 +1760,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 134248.190207,
+                "rendered": "134248.190207"
+            },
+            "actual_revenue_calc": {
+                "value": 834217.320531,
+                "rendered": "834217.320531"
             }
         },
         {
@@ -1676,6 +1844,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 110272.401951,
+                "rendered": "110272.401951"
+            },
+            "actual_revenue_calc": {
+                "value": 900999.618889,
+                "rendered": "900999.618889"
             }
         },
         {
@@ -1754,6 +1930,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 58250.780289,
+                "rendered": "58250.780289"
+            },
+            "actual_revenue_calc": {
+                "value": 284742.387515,
+                "rendered": "284742.387515"
             }
         },
         {
@@ -1832,6 +2016,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 76877.064797,
+                "rendered": "76877.064797"
+            },
+            "actual_revenue_calc": {
+                "value": 424685.362853,
+                "rendered": "424685.362853"
             }
         },
         {
@@ -1908,6 +2100,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 151418.305117,
+                "rendered": "151418.305117"
+            },
+            "actual_revenue_calc": {
+                "value": 1077367.049674,
+                "rendered": "1077367.049674"
             }
         },
         {
@@ -1984,6 +2184,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 108575.416171,
+                "rendered": "108575.416171"
+            },
+            "actual_revenue_calc": {
+                "value": 935919.82112,
+                "rendered": "935919.82112"
             }
         },
         {
@@ -2060,6 +2268,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 116579.275651,
+                "rendered": "116579.275651"
+            },
+            "actual_revenue_calc": {
+                "value": 870548.25758,
+                "rendered": "870548.25758"
             }
         },
         {
@@ -2136,6 +2352,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 117196.410911,
+                "rendered": "117196.410911"
+            },
+            "actual_revenue_calc": {
+                "value": 849152.210834,
+                "rendered": "849152.210834"
             }
         },
         {
@@ -2212,6 +2436,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 128297.985263,
+                "rendered": "128297.985263"
+            },
+            "actual_revenue_calc": {
+                "value": 810078.89718,
+                "rendered": "810078.89718"
             }
         },
         {
@@ -2290,6 +2522,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 53019.891448,
+                "rendered": "53019.891448"
+            },
+            "actual_revenue_calc": {
+                "value": 255718.391463,
+                "rendered": "255718.391463"
             }
         },
         {
@@ -2368,6 +2608,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 77407.613551,
+                "rendered": "77407.613551"
+            },
+            "actual_revenue_calc": {
+                "value": 444542.026909,
+                "rendered": "444542.026909"
             }
         },
         {
@@ -2444,6 +2692,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 115650.386639,
+                "rendered": "115650.386639"
+            },
+            "actual_revenue_calc": {
+                "value": 1017788.090273,
+                "rendered": "1017788.090273"
             }
         },
         {
@@ -2520,6 +2776,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 119845.19943,
+                "rendered": "119845.19943"
+            },
+            "actual_revenue_calc": {
+                "value": 903323.917465,
+                "rendered": "903323.917465"
             }
         },
         {
@@ -2596,6 +2860,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 116496.668529,
+                "rendered": "116496.668529"
+            },
+            "actual_revenue_calc": {
+                "value": 881513.597056,
+                "rendered": "881513.597056"
             }
         },
         {
@@ -2672,6 +2944,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 98848.771614,
+                "rendered": "98848.771614"
+            },
+            "actual_revenue_calc": {
+                "value": 706228.475621,
+                "rendered": "706228.475621"
             }
         },
         {
@@ -2748,6 +3028,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 106928.388692,
+                "rendered": "106928.388692"
+            },
+            "actual_revenue_calc": {
+                "value": 880167.065598,
+                "rendered": "880167.065598"
             }
         },
         {
@@ -2826,6 +3114,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 27903.025454,
+                "rendered": "27903.025454"
+            },
+            "actual_revenue_calc": {
+                "value": 210923.42548,
+                "rendered": "210923.42548"
             }
         },
         {
@@ -2904,6 +3200,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 60731.748171,
+                "rendered": "60731.748171"
+            },
+            "actual_revenue_calc": {
+                "value": 419589.170236,
+                "rendered": "419589.170236"
             }
         },
         {
@@ -2980,6 +3284,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 119140.119998,
+                "rendered": "119140.119998"
+            },
+            "actual_revenue_calc": {
+                "value": 948289.92413,
+                "rendered": "948289.92413"
             }
         },
         {
@@ -3056,6 +3368,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 125945.561234,
+                "rendered": "125945.561234"
+            },
+            "actual_revenue_calc": {
+                "value": 925481.065556,
+                "rendered": "925481.065556"
             }
         },
         {
@@ -3132,6 +3452,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 81180.42283,
+                "rendered": "81180.42283"
+            },
+            "actual_revenue_calc": {
+                "value": 680926.641328,
+                "rendered": "680926.641328"
             }
         },
         {
@@ -3208,6 +3536,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 62351.31923,
+                "rendered": "62351.31923"
+            },
+            "actual_revenue_calc": {
+                "value": 590082.691912,
+                "rendered": "590082.691912"
             }
         },
         {
@@ -3286,6 +3622,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 43832.305288,
+                "rendered": "43832.305288"
+            },
+            "actual_revenue_calc": {
+                "value": 303494.730423,
+                "rendered": "303494.730423"
             }
         },
         {
@@ -3364,6 +3708,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 47850.282375,
+                "rendered": "47850.282375"
+            },
+            "actual_revenue_calc": {
+                "value": 275632.902308,
+                "rendered": "275632.902308"
             }
         },
         {
@@ -3442,6 +3794,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 59992.341317,
+                "rendered": "59992.341317"
+            },
+            "actual_revenue_calc": {
+                "value": 426445.122773,
+                "rendered": "426445.122773"
             }
         },
         {
@@ -3518,6 +3878,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 123547.05434,
+                "rendered": "123547.05434"
+            },
+            "actual_revenue_calc": {
+                "value": 893966.771852,
+                "rendered": "893966.771852"
             }
         },
         {
@@ -3594,6 +3962,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 112983.515448,
+                "rendered": "112983.515448"
+            },
+            "actual_revenue_calc": {
+                "value": 871349.886679,
+                "rendered": "871349.886679"
             }
         },
         {
@@ -3669,6 +4045,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 105197.534748,
+                "rendered": "105197.534748"
+            },
+            "actual_revenue_calc": {
+                "value": 797705.996655,
+                "rendered": "797705.996655"
             }
         },
         {
@@ -3744,6 +4128,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 83245.397875,
+                "rendered": "83245.397875"
+            },
+            "actual_revenue_calc": {
+                "value": 696493.41038,
+                "rendered": "696493.41038"
             }
         },
         {
@@ -3819,6 +4211,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 109769.481603,
+                "rendered": "109769.481603"
+            },
+            "actual_revenue_calc": {
+                "value": 837526.376706,
+                "rendered": "837526.376706"
             }
         },
         {
@@ -3897,6 +4297,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 33371.417466,
+                "rendered": "33371.417466"
+            },
+            "actual_revenue_calc": {
+                "value": 205278.263192,
+                "rendered": "205278.263192"
             }
         },
         {
@@ -3975,6 +4383,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 73938.031875,
+                "rendered": "73938.031875"
+            },
+            "actual_revenue_calc": {
+                "value": 396721.584425,
+                "rendered": "396721.584425"
             }
         },
         {
@@ -4050,6 +4466,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 128284.125598,
+                "rendered": "128284.125598"
+            },
+            "actual_revenue_calc": {
+                "value": 925269.394835,
+                "rendered": "925269.394835"
             }
         },
         {
@@ -4125,6 +4549,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 105735.936416,
+                "rendered": "105735.936416"
+            },
+            "actual_revenue_calc": {
+                "value": 834494.456537,
+                "rendered": "834494.456537"
             }
         },
         {
@@ -4200,6 +4632,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 116215.86499,
+                "rendered": "116215.86499"
+            },
+            "actual_revenue_calc": {
+                "value": 839062.790505,
+                "rendered": "839062.790505"
             }
         },
         {
@@ -4275,6 +4715,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 86972.215917,
+                "rendered": "86972.215917"
+            },
+            "actual_revenue_calc": {
+                "value": 686127.373503,
+                "rendered": "686127.373503"
             }
         },
         {
@@ -4350,6 +4798,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 112875.445629,
+                "rendered": "112875.445629"
+            },
+            "actual_revenue_calc": {
+                "value": 839001.143223,
+                "rendered": "839001.143223"
             }
         },
         {
@@ -4428,6 +4884,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 40722.657373,
+                "rendered": "40722.657373"
+            },
+            "actual_revenue_calc": {
+                "value": 246336.667399,
+                "rendered": "246336.667399"
             }
         },
         {
@@ -4506,6 +4970,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 59276.414579,
+                "rendered": "59276.414579"
+            },
+            "actual_revenue_calc": {
+                "value": 387854.503629,
+                "rendered": "387854.503629"
             }
         },
         {
@@ -4581,6 +5053,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 118616.385371,
+                "rendered": "118616.385371"
+            },
+            "actual_revenue_calc": {
+                "value": 868315.312986,
+                "rendered": "868315.312986"
             }
         },
         {
@@ -4656,6 +5136,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 112344.950439,
+                "rendered": "112344.950439"
+            },
+            "actual_revenue_calc": {
+                "value": 856185.095763,
+                "rendered": "856185.095763"
             }
         },
         {
@@ -4731,6 +5219,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 103242.484233,
+                "rendered": "103242.484233"
+            },
+            "actual_revenue_calc": {
+                "value": 818878.201861,
+                "rendered": "818878.201861"
             }
         },
         {
@@ -4806,6 +5302,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 88018.419136,
+                "rendered": "88018.419136"
+            },
+            "actual_revenue_calc": {
+                "value": 693483.832446,
+                "rendered": "693483.832446"
             }
         },
         {
@@ -4881,6 +5385,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 115486.050808,
+                "rendered": "115486.050808"
+            },
+            "actual_revenue_calc": {
+                "value": 837130.799318,
+                "rendered": "837130.799318"
             }
         },
         {
@@ -4959,6 +5471,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 31035.768328,
+                "rendered": "31035.768328"
+            },
+            "actual_revenue_calc": {
+                "value": 216360.195556,
+                "rendered": "216360.195556"
             }
         },
         {
@@ -5037,6 +5557,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 53136.451626,
+                "rendered": "53136.451626"
+            },
+            "actual_revenue_calc": {
+                "value": 363629.203678,
+                "rendered": "363629.203678"
             }
         },
         {
@@ -5112,6 +5640,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 91963.681212,
+                "rendered": "91963.681212"
+            },
+            "actual_revenue_calc": {
+                "value": 804766.767725,
+                "rendered": "804766.767725"
             }
         },
         {
@@ -5187,6 +5723,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 80750.152287,
+                "rendered": "80750.152287"
+            },
+            "actual_revenue_calc": {
+                "value": 768763.606714,
+                "rendered": "768763.606714"
             }
         },
         {
@@ -5262,6 +5806,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 69636.532216,
+                "rendered": "69636.532216"
+            },
+            "actual_revenue_calc": {
+                "value": 727619.277925,
+                "rendered": "727619.277925"
             }
         },
         {
@@ -5337,6 +5889,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 60174.934518,
+                "rendered": "60174.934518"
+            },
+            "actual_revenue_calc": {
+                "value": 663485.64861,
+                "rendered": "663485.64861"
             }
         },
         {
@@ -5412,6 +5972,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 82069.917142,
+                "rendered": "82069.917142"
+            },
+            "actual_revenue_calc": {
+                "value": 841951.000631,
+                "rendered": "841951.000631"
             }
         },
         {
@@ -5490,6 +6058,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 20358.267662,
+                "rendered": "20358.267662"
+            },
+            "actual_revenue_calc": {
+                "value": 211656.087697,
+                "rendered": "211656.087697"
             }
         },
         {
@@ -5568,6 +6144,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 41594.588068,
+                "rendered": "41594.588068"
+            },
+            "actual_revenue_calc": {
+                "value": 349608.998109,
+                "rendered": "349608.998109"
             }
         },
         {
@@ -5643,6 +6227,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 80137.040898,
+                "rendered": "80137.040898"
+            },
+            "actual_revenue_calc": {
+                "value": 868946.866224,
+                "rendered": "868946.866224"
             }
         },
         {
@@ -5718,6 +6310,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 78312.212105,
+                "rendered": "78312.212105"
+            },
+            "actual_revenue_calc": {
+                "value": 802533.219325,
+                "rendered": "802533.219325"
             }
         },
         {
@@ -5793,6 +6393,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 66397.959491,
+                "rendered": "66397.959491"
+            },
+            "actual_revenue_calc": {
+                "value": 779533.392519,
+                "rendered": "779533.392519"
             }
         },
         {
@@ -5868,6 +6476,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 57693.031022,
+                "rendered": "57693.031022"
+            },
+            "actual_revenue_calc": {
+                "value": 706377.836052,
+                "rendered": "706377.836052"
             }
         },
         {
@@ -5943,6 +6559,14 @@
             "today_day_number": {
                 "value": 17,
                 "rendered": "17"
+            },
+            "actual_margin_calc": {
+                "value": 69602.219952,
+                "rendered": "69602.219952"
+            },
+            "actual_revenue_calc": {
+                "value": 897777.334263,
+                "rendered": "897777.334263"
             }
         }
     ],
@@ -6288,6 +6912,34 @@
                 "value_format": null,
                 "is_numeric": true,
                 "pivoted": false
+            },
+            {
+                "label": "Actual Margin - Calc",
+                "name": "actual_margin_calc",
+                "expression": "${shipments_actual.margin}",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
+            },
+            {
+                "label": "Actual Revenue - Calc",
+                "name": "actual_revenue_calc",
+                "expression": "${shipments_actual.revenue}",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
             }
         ],
         "pivots": [],
@@ -6468,6 +7120,34 @@
                 "sql_case": null,
                 "filters": null,
                 "times_used": 0
+            },
+            {
+                "label": "Actual Margin - Calc",
+                "name": "actual_margin_calc",
+                "expression": "${shipments_actual.margin}",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
+            },
+            {
+                "label": "Actual Revenue - Calc",
+                "name": "actual_revenue_calc",
+                "expression": "${shipments_actual.revenue}",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
             }
         ],
         "dimension_like": [
@@ -6635,7 +7315,7 @@
     "forecast_result": null,
     "has_row_totals": false,
     "has_totals": false,
-    "id": "query-result-53:{\"hidden_points_if_no\":[],\"hidden_fields\":[\"pace_to_ytd_target\",\"shipments_actual.revenue\",\"shipments_actual.margin\",\"pace_to_ytd_revenue_target\",\"pace_to_ytd_margin_target\",\"margin\",\"pace_to_mtd_revenue_forecast\",\"pace_to_mtd_margin_forecast\",\"pace_to_ytd_volume_forecast\",\"shipper_rate_date_extended.revenue_forecast\",\"budget_product_daily.total_ftl_margin\",\"shipper_rate_date_extended.margin_forecast\",\"budget_product_daily.total_ftl_revenue\"]}",
+    "id": "query-result-57:{\"hidden_points_if_no\":[],\"hidden_fields\":[\"pace_to_ytd_target\",\"shipments_actual.revenue\",\"shipments_actual.margin\",\"pace_to_ytd_revenue_target\",\"pace_to_ytd_margin_target\",\"margin\",\"pace_to_mtd_revenue_forecast\",\"pace_to_mtd_margin_forecast\",\"pace_to_ytd_volume_forecast\",\"shipper_rate_date_extended.revenue_forecast\",\"budget_product_daily.total_ftl_margin\",\"shipper_rate_date_extended.margin_forecast\",\"budget_product_daily.total_ftl_revenue\"]}",
     "null_sort_treatment": "high",
     "number_format": "1,234.56",
     "ran_at": "2022-10-18T20:25:49+00:00",
@@ -6728,6 +7408,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 100860.382056,
+            "rendered": "100860.382056"
+        },
+        "actual_revenue_calc": {
+            "value": 701836.462052,
+            "rendered": "701836.462052"
         }
     },
     {
@@ -6806,6 +7494,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 49244.62517,
+            "rendered": "49244.62517"
+        },
+        "actual_revenue_calc": {
+            "value": 201931.645189,
+            "rendered": "201931.645189"
         }
     },
     {
@@ -6884,6 +7580,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 63346.902766,
+            "rendered": "63346.902766"
+        },
+        "actual_revenue_calc": {
+            "value": 336743.144406,
+            "rendered": "336743.144406"
         }
     },
     {
@@ -6959,6 +7663,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 109082.700066,
+            "rendered": "109082.700066"
+        },
+        "actual_revenue_calc": {
+            "value": 855721.784598,
+            "rendered": "855721.784598"
         }
     },
     {
@@ -7034,6 +7746,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 96034.357926,
+            "rendered": "96034.357926"
+        },
+        "actual_revenue_calc": {
+            "value": 756199.987556,
+            "rendered": "756199.987556"
         }
     },
     {
@@ -7109,6 +7829,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 111274.936944,
+            "rendered": "111274.936944"
+        },
+        "actual_revenue_calc": {
+            "value": 760729.45296,
+            "rendered": "760729.45296"
         }
     },
     {
@@ -7184,6 +7912,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 121971.077828,
+            "rendered": "121971.077828"
+        },
+        "actual_revenue_calc": {
+            "value": 742758.504733,
+            "rendered": "742758.504733"
         }
     },
     {
@@ -7259,6 +7995,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 128374.868215,
+            "rendered": "128374.868215"
+        },
+        "actual_revenue_calc": {
+            "value": 816022.371802,
+            "rendered": "816022.371802"
         }
     },
     {
@@ -7337,6 +8081,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 88820.834985,
+            "rendered": "88820.834985"
+        },
+        "actual_revenue_calc": {
+            "value": 310066.487513,
+            "rendered": "310066.487513"
         }
     },
     {
@@ -7415,6 +8167,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 73547.765281,
+            "rendered": "73547.765281"
+        },
+        "actual_revenue_calc": {
+            "value": 391064.147728,
+            "rendered": "391064.147728"
         }
     },
     {
@@ -7490,6 +8250,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 128949.644366,
+            "rendered": "128949.644366"
+        },
+        "actual_revenue_calc": {
+            "value": 898923.329498,
+            "rendered": "898923.329498"
         }
     },
     {
@@ -7565,6 +8333,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 90109.421819,
+            "rendered": "90109.421819"
+        },
+        "actual_revenue_calc": {
+            "value": 805163.502353,
+            "rendered": "805163.502353"
         }
     },
     {
@@ -7640,6 +8416,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 101708.857806,
+            "rendered": "101708.857806"
+        },
+        "actual_revenue_calc": {
+            "value": 764011.672525,
+            "rendered": "764011.672525"
         }
     },
     {
@@ -7715,6 +8499,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 74801.672765,
+            "rendered": "74801.672765"
+        },
+        "actual_revenue_calc": {
+            "value": 638411.284065,
+            "rendered": "638411.284065"
         }
     },
     {
@@ -7790,6 +8582,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 99020.83675,
+            "rendered": "99020.83675"
+        },
+        "actual_revenue_calc": {
+            "value": 801695.601261,
+            "rendered": "801695.601261"
         }
     },
     {
@@ -7868,6 +8668,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 35491.551736,
+            "rendered": "35491.551736"
+        },
+        "actual_revenue_calc": {
+            "value": 199551.151765,
+            "rendered": "199551.151765"
         }
     },
     {
@@ -7946,6 +8754,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 70344.359923,
+            "rendered": "70344.359923"
+        },
+        "actual_revenue_calc": {
+            "value": 397483.143968,
+            "rendered": "397483.143968"
         }
     },
     {
@@ -8022,6 +8838,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 102841.919119,
+            "rendered": "102841.919119"
+        },
+        "actual_revenue_calc": {
+            "value": 897876.766042,
+            "rendered": "897876.766042"
         }
     },
     {
@@ -8098,6 +8922,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 103530.610737,
+            "rendered": "103530.610737"
+        },
+        "actual_revenue_calc": {
+            "value": 849194.539479,
+            "rendered": "849194.539479"
         }
     },
     {
@@ -8174,6 +9006,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 112161.857494,
+            "rendered": "112161.857494"
+        },
+        "actual_revenue_calc": {
+            "value": 891273.556213,
+            "rendered": "891273.556213"
         }
     },
     {
@@ -8250,6 +9090,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 134248.190207,
+            "rendered": "134248.190207"
+        },
+        "actual_revenue_calc": {
+            "value": 834217.320531,
+            "rendered": "834217.320531"
         }
     },
     {
@@ -8326,6 +9174,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 110272.401951,
+            "rendered": "110272.401951"
+        },
+        "actual_revenue_calc": {
+            "value": 900999.618889,
+            "rendered": "900999.618889"
         }
     },
     {
@@ -8404,6 +9260,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 58250.780289,
+            "rendered": "58250.780289"
+        },
+        "actual_revenue_calc": {
+            "value": 284742.387515,
+            "rendered": "284742.387515"
         }
     },
     {
@@ -8482,6 +9346,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 76877.064797,
+            "rendered": "76877.064797"
+        },
+        "actual_revenue_calc": {
+            "value": 424685.362853,
+            "rendered": "424685.362853"
         }
     },
     {
@@ -8558,6 +9430,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 151418.305117,
+            "rendered": "151418.305117"
+        },
+        "actual_revenue_calc": {
+            "value": 1077367.049674,
+            "rendered": "1077367.049674"
         }
     },
     {
@@ -8634,6 +9514,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 108575.416171,
+            "rendered": "108575.416171"
+        },
+        "actual_revenue_calc": {
+            "value": 935919.82112,
+            "rendered": "935919.82112"
         }
     },
     {
@@ -8710,6 +9598,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 116579.275651,
+            "rendered": "116579.275651"
+        },
+        "actual_revenue_calc": {
+            "value": 870548.25758,
+            "rendered": "870548.25758"
         }
     },
     {
@@ -8786,6 +9682,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 117196.410911,
+            "rendered": "117196.410911"
+        },
+        "actual_revenue_calc": {
+            "value": 849152.210834,
+            "rendered": "849152.210834"
         }
     },
     {
@@ -8862,6 +9766,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 128297.985263,
+            "rendered": "128297.985263"
+        },
+        "actual_revenue_calc": {
+            "value": 810078.89718,
+            "rendered": "810078.89718"
         }
     },
     {
@@ -8940,6 +9852,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 53019.891448,
+            "rendered": "53019.891448"
+        },
+        "actual_revenue_calc": {
+            "value": 255718.391463,
+            "rendered": "255718.391463"
         }
     },
     {
@@ -9018,6 +9938,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 77407.613551,
+            "rendered": "77407.613551"
+        },
+        "actual_revenue_calc": {
+            "value": 444542.026909,
+            "rendered": "444542.026909"
         }
     },
     {
@@ -9094,6 +10022,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 115650.386639,
+            "rendered": "115650.386639"
+        },
+        "actual_revenue_calc": {
+            "value": 1017788.090273,
+            "rendered": "1017788.090273"
         }
     },
     {
@@ -9170,6 +10106,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 119845.19943,
+            "rendered": "119845.19943"
+        },
+        "actual_revenue_calc": {
+            "value": 903323.917465,
+            "rendered": "903323.917465"
         }
     },
     {
@@ -9246,6 +10190,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 116496.668529,
+            "rendered": "116496.668529"
+        },
+        "actual_revenue_calc": {
+            "value": 881513.597056,
+            "rendered": "881513.597056"
         }
     },
     {
@@ -9322,6 +10274,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 98848.771614,
+            "rendered": "98848.771614"
+        },
+        "actual_revenue_calc": {
+            "value": 706228.475621,
+            "rendered": "706228.475621"
         }
     },
     {
@@ -9398,6 +10358,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 106928.388692,
+            "rendered": "106928.388692"
+        },
+        "actual_revenue_calc": {
+            "value": 880167.065598,
+            "rendered": "880167.065598"
         }
     },
     {
@@ -9476,6 +10444,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 27903.025454,
+            "rendered": "27903.025454"
+        },
+        "actual_revenue_calc": {
+            "value": 210923.42548,
+            "rendered": "210923.42548"
         }
     },
     {
@@ -9554,6 +10530,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 60731.748171,
+            "rendered": "60731.748171"
+        },
+        "actual_revenue_calc": {
+            "value": 419589.170236,
+            "rendered": "419589.170236"
         }
     },
     {
@@ -9630,6 +10614,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 119140.119998,
+            "rendered": "119140.119998"
+        },
+        "actual_revenue_calc": {
+            "value": 948289.92413,
+            "rendered": "948289.92413"
         }
     },
     {
@@ -9706,6 +10698,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 125945.561234,
+            "rendered": "125945.561234"
+        },
+        "actual_revenue_calc": {
+            "value": 925481.065556,
+            "rendered": "925481.065556"
         }
     },
     {
@@ -9782,6 +10782,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 81180.42283,
+            "rendered": "81180.42283"
+        },
+        "actual_revenue_calc": {
+            "value": 680926.641328,
+            "rendered": "680926.641328"
         }
     },
     {
@@ -9858,6 +10866,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 62351.31923,
+            "rendered": "62351.31923"
+        },
+        "actual_revenue_calc": {
+            "value": 590082.691912,
+            "rendered": "590082.691912"
         }
     },
     {
@@ -9936,6 +10952,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 43832.305288,
+            "rendered": "43832.305288"
+        },
+        "actual_revenue_calc": {
+            "value": 303494.730423,
+            "rendered": "303494.730423"
         }
     },
     {
@@ -10014,6 +11038,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 47850.282375,
+            "rendered": "47850.282375"
+        },
+        "actual_revenue_calc": {
+            "value": 275632.902308,
+            "rendered": "275632.902308"
         }
     },
     {
@@ -10092,6 +11124,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 59992.341317,
+            "rendered": "59992.341317"
+        },
+        "actual_revenue_calc": {
+            "value": 426445.122773,
+            "rendered": "426445.122773"
         }
     },
     {
@@ -10168,6 +11208,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 123547.05434,
+            "rendered": "123547.05434"
+        },
+        "actual_revenue_calc": {
+            "value": 893966.771852,
+            "rendered": "893966.771852"
         }
     },
     {
@@ -10244,6 +11292,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 112983.515448,
+            "rendered": "112983.515448"
+        },
+        "actual_revenue_calc": {
+            "value": 871349.886679,
+            "rendered": "871349.886679"
         }
     },
     {
@@ -10319,6 +11375,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 105197.534748,
+            "rendered": "105197.534748"
+        },
+        "actual_revenue_calc": {
+            "value": 797705.996655,
+            "rendered": "797705.996655"
         }
     },
     {
@@ -10394,6 +11458,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 83245.397875,
+            "rendered": "83245.397875"
+        },
+        "actual_revenue_calc": {
+            "value": 696493.41038,
+            "rendered": "696493.41038"
         }
     },
     {
@@ -10469,6 +11541,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 109769.481603,
+            "rendered": "109769.481603"
+        },
+        "actual_revenue_calc": {
+            "value": 837526.376706,
+            "rendered": "837526.376706"
         }
     },
     {
@@ -10547,6 +11627,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 33371.417466,
+            "rendered": "33371.417466"
+        },
+        "actual_revenue_calc": {
+            "value": 205278.263192,
+            "rendered": "205278.263192"
         }
     },
     {
@@ -10625,6 +11713,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 73938.031875,
+            "rendered": "73938.031875"
+        },
+        "actual_revenue_calc": {
+            "value": 396721.584425,
+            "rendered": "396721.584425"
         }
     },
     {
@@ -10700,6 +11796,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 128284.125598,
+            "rendered": "128284.125598"
+        },
+        "actual_revenue_calc": {
+            "value": 925269.394835,
+            "rendered": "925269.394835"
         }
     },
     {
@@ -10775,6 +11879,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 105735.936416,
+            "rendered": "105735.936416"
+        },
+        "actual_revenue_calc": {
+            "value": 834494.456537,
+            "rendered": "834494.456537"
         }
     },
     {
@@ -10850,6 +11962,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 116215.86499,
+            "rendered": "116215.86499"
+        },
+        "actual_revenue_calc": {
+            "value": 839062.790505,
+            "rendered": "839062.790505"
         }
     },
     {
@@ -10925,6 +12045,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 86972.215917,
+            "rendered": "86972.215917"
+        },
+        "actual_revenue_calc": {
+            "value": 686127.373503,
+            "rendered": "686127.373503"
         }
     },
     {
@@ -11000,6 +12128,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 112875.445629,
+            "rendered": "112875.445629"
+        },
+        "actual_revenue_calc": {
+            "value": 839001.143223,
+            "rendered": "839001.143223"
         }
     },
     {
@@ -11078,6 +12214,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 40722.657373,
+            "rendered": "40722.657373"
+        },
+        "actual_revenue_calc": {
+            "value": 246336.667399,
+            "rendered": "246336.667399"
         }
     },
     {
@@ -11156,6 +12300,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 59276.414579,
+            "rendered": "59276.414579"
+        },
+        "actual_revenue_calc": {
+            "value": 387854.503629,
+            "rendered": "387854.503629"
         }
     },
     {
@@ -11231,6 +12383,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 118616.385371,
+            "rendered": "118616.385371"
+        },
+        "actual_revenue_calc": {
+            "value": 868315.312986,
+            "rendered": "868315.312986"
         }
     },
     {
@@ -11306,6 +12466,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 112344.950439,
+            "rendered": "112344.950439"
+        },
+        "actual_revenue_calc": {
+            "value": 856185.095763,
+            "rendered": "856185.095763"
         }
     },
     {
@@ -11381,6 +12549,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 103242.484233,
+            "rendered": "103242.484233"
+        },
+        "actual_revenue_calc": {
+            "value": 818878.201861,
+            "rendered": "818878.201861"
         }
     },
     {
@@ -11456,6 +12632,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 88018.419136,
+            "rendered": "88018.419136"
+        },
+        "actual_revenue_calc": {
+            "value": 693483.832446,
+            "rendered": "693483.832446"
         }
     },
     {
@@ -11531,6 +12715,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 115486.050808,
+            "rendered": "115486.050808"
+        },
+        "actual_revenue_calc": {
+            "value": 837130.799318,
+            "rendered": "837130.799318"
         }
     },
     {
@@ -11609,6 +12801,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 31035.768328,
+            "rendered": "31035.768328"
+        },
+        "actual_revenue_calc": {
+            "value": 216360.195556,
+            "rendered": "216360.195556"
         }
     },
     {
@@ -11687,6 +12887,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 53136.451626,
+            "rendered": "53136.451626"
+        },
+        "actual_revenue_calc": {
+            "value": 363629.203678,
+            "rendered": "363629.203678"
         }
     },
     {
@@ -11762,6 +12970,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 91963.681212,
+            "rendered": "91963.681212"
+        },
+        "actual_revenue_calc": {
+            "value": 804766.767725,
+            "rendered": "804766.767725"
         }
     },
     {
@@ -11837,6 +13053,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 80750.152287,
+            "rendered": "80750.152287"
+        },
+        "actual_revenue_calc": {
+            "value": 768763.606714,
+            "rendered": "768763.606714"
         }
     },
     {
@@ -11912,6 +13136,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 69636.532216,
+            "rendered": "69636.532216"
+        },
+        "actual_revenue_calc": {
+            "value": 727619.277925,
+            "rendered": "727619.277925"
         }
     },
     {
@@ -11987,6 +13219,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 60174.934518,
+            "rendered": "60174.934518"
+        },
+        "actual_revenue_calc": {
+            "value": 663485.64861,
+            "rendered": "663485.64861"
         }
     },
     {
@@ -12062,6 +13302,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 82069.917142,
+            "rendered": "82069.917142"
+        },
+        "actual_revenue_calc": {
+            "value": 841951.000631,
+            "rendered": "841951.000631"
         }
     },
     {
@@ -12140,6 +13388,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 20358.267662,
+            "rendered": "20358.267662"
+        },
+        "actual_revenue_calc": {
+            "value": 211656.087697,
+            "rendered": "211656.087697"
         }
     },
     {
@@ -12218,6 +13474,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 41594.588068,
+            "rendered": "41594.588068"
+        },
+        "actual_revenue_calc": {
+            "value": 349608.998109,
+            "rendered": "349608.998109"
         }
     },
     {
@@ -12293,6 +13557,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 80137.040898,
+            "rendered": "80137.040898"
+        },
+        "actual_revenue_calc": {
+            "value": 868946.866224,
+            "rendered": "868946.866224"
         }
     },
     {
@@ -12368,6 +13640,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 78312.212105,
+            "rendered": "78312.212105"
+        },
+        "actual_revenue_calc": {
+            "value": 802533.219325,
+            "rendered": "802533.219325"
         }
     },
     {
@@ -12443,6 +13723,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 66397.959491,
+            "rendered": "66397.959491"
+        },
+        "actual_revenue_calc": {
+            "value": 779533.392519,
+            "rendered": "779533.392519"
         }
     },
     {
@@ -12518,6 +13806,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 57693.031022,
+            "rendered": "57693.031022"
+        },
+        "actual_revenue_calc": {
+            "value": 706377.836052,
+            "rendered": "706377.836052"
         }
     },
     {
@@ -12593,6 +13889,14 @@
         "today_day_number": {
             "value": 17,
             "rendered": "17"
+        },
+        "actual_margin_calc": {
+            "value": 69602.219952,
+            "rendered": "69602.219952"
+        },
+        "actual_revenue_calc": {
+            "value": 897777.334263,
+            "rendered": "897777.334263"
         }
     }
 ]}
