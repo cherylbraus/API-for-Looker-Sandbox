@@ -23,6 +23,7 @@ const dataRoutes = (app, fs) => {
   const dataPathMonthlyGoals = './data/dataMonthlyGoals.json';
   const dataPathTopTileMonth = './data/dataTopTileMonth.json';
   const dataPathSimpleLine = './data/dataSimpleLine.json';
+  const dataPathColoredBarPerc = './data/dataColoredBarPerc.json';
 
 
   // READ
@@ -248,6 +249,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataSimpleLine', (req, res) => {
     fs.readFile(dataPathSimpleLine, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataColoredBarPerc', (req, res) => {
+    fs.readFile(dataPathColoredBarPerc, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
