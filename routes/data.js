@@ -24,6 +24,7 @@ const dataRoutes = (app, fs) => {
   const dataPathTopTileMonth = './data/dataTopTileMonth.json';
   const dataPathSimpleLine = './data/dataSimpleLine.json';
   const dataPathColoredBarPerc = './data/dataColoredBarPerc.json';
+  const dataPathMCSmap = './data/dataMCSmap.json';
 
 
   // READ
@@ -259,6 +260,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataColoredBarPerc', (req, res) => {
     fs.readFile(dataPathColoredBarPerc, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataMCSmap', (req, res) => {
+    fs.readFile(dataPathMCSmap, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
