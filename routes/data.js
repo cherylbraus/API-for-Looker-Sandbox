@@ -25,6 +25,7 @@ const dataRoutes = (app, fs) => {
   const dataPathSimpleLine = './data/dataSimpleLine.json';
   const dataPathColoredBarPerc = './data/dataColoredBarPerc.json';
   const dataPathMCSmap = './data/dataMCSmap.json';
+  const dataPathMCSmap2 = './data/dataMCSmap2.json';
 
 
   // READ
@@ -270,6 +271,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataMCSmap', (req, res) => {
     fs.readFile(dataPathMCSmap, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataMCSmap2', (req, res) => {
+    fs.readFile(dataPathMCSmap2, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
