@@ -27,6 +27,7 @@ const dataRoutes = (app, fs) => {
   const dataPathMCSmap = './data/dataMCSmap.json';
   const dataPathMCSmap2 = './data/dataMCSmap2.json';
   const dataPathSplitViolinTest = './data/dataSplitViolinTest.json';
+  const dataPathMapChangeYr = './data/dataMapChangeYr.json';
 
 
   // READ
@@ -292,6 +293,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataSplitViolinTest', (req, res) => {
     fs.readFile(dataPathSplitViolinTest, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataMapChangeYr', (req, res) => {
+    fs.readFile(dataPathMapChangeYr, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
