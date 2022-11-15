@@ -29,6 +29,7 @@ const dataRoutes = (app, fs) => {
   const dataPathSplitViolinTest = './data/dataSplitViolinTest.json';
   const dataPathMapChangeYr = './data/dataMapChangeYr.json';
   const dataPathMapChangeYr2 = './data/dataMapChangeYr2.json';
+  const dataPathBulletTrueRate = './data/dataBulletTrueRate.json';
 
 
   // READ
@@ -314,6 +315,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataMapChangeYr2', (req, res) => {
     fs.readFile(dataPathMapChangeYr2, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataBulletTrueRate', (req, res) => {
+    fs.readFile(dataPathBulletTrueRate, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
