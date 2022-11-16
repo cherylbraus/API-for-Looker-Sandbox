@@ -6621,7 +6621,7 @@
         "result.supports_pivot_in_db": true
     },
     "sorts": []
-}, "data": [
+}, "data": [ 
     {
         "shipper_rate_date_extended.date_month": {
             "value": "2023-12",
