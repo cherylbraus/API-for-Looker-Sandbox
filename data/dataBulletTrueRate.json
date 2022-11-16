@@ -6502,7 +6502,7 @@
         "result.sql.length": 27056,
         "result.supports_pivot_in_db": true
     },
-    "sorts": []
+    "sorts": [] 
 }, "data": [
     {
         "shipper_rate_date_extended.date_month": {
