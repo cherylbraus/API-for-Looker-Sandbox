@@ -31,6 +31,7 @@ const dataRoutes = (app, fs) => {
   const dataPathMapChangeYr2 = './data/dataMapChangeYr2.json';
   const dataPathBulletTrueRate = './data/dataBulletTrueRate.json';
   const dataPathBulletTRyr = './data/dataBulletTRyr.json';
+  const dataPathLineDropdown = './data/dataLineDropdown.json';
 
 
   // READ
@@ -336,6 +337,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataBulletTRyr', (req, res) => {
     fs.readFile(dataPathBulletTRyr, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataLineDropdown', (req, res) => {
+    fs.readFile(dataPathLineDropdown, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
