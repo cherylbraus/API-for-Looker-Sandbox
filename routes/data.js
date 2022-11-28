@@ -32,6 +32,7 @@ const dataRoutes = (app, fs) => {
   const dataPathBulletTrueRate = './data/dataBulletTrueRate.json';
   const dataPathBulletTRyr = './data/dataBulletTRyr.json';
   const dataPathLineDropdown = './data/dataLineDropdown.json';
+  const dataPathSparklineError = './data/dataSparklineError.json';
 
 
   // READ
@@ -347,6 +348,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataLineDropdown', (req, res) => {
     fs.readFile(dataPathLineDropdown, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataSparklineError', (req, res) => {
+    fs.readFile(dataPathSparklineError, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
