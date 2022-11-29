@@ -33,7 +33,7 @@ const dataRoutes = (app, fs) => {
   const dataPathBulletTRyr = './data/dataBulletTRyr.json';
   const dataPathLineDropdown = './data/dataLineDropdown.json';
   const dataPathSparklineError = './data/dataSparklineError.json';
-
+  const dataPathSparklineWorks = './data/dataSparklineWorks.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -358,6 +358,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataSparklineError', (req, res) => {
     fs.readFile(dataPathSparklineError, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataSparklineWorks', (req, res) => {
+    fs.readFile(dataPathSparklineWorks, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
