@@ -37,6 +37,7 @@ const dataRoutes = (app, fs) => {
   const dataPathSparklineTest = './data/dataSparklineTest.json';
   const dataPathSankey = './data/dataSankey.json';
   const dataPathSankey2 = './data/dataSankey2.json';
+  const dataPathSparklineIH = './data/dataSparklineIH.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -401,6 +402,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataSankey2', (req, res) => {
     fs.readFile(dataPathSankey2, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataSparklineIH', (req, res) => {
+    fs.readFile(dataPathSparklineIH, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
