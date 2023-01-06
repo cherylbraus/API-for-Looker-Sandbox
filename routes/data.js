@@ -39,6 +39,7 @@ const dataRoutes = (app, fs) => {
   const dataPathSankey2 = './data/dataSankey2.json';
   const dataPathSparklineIH = './data/dataSparklineIH.json';
   const dataPathHexmap = './data/dataHexmap.json';
+  const dataPathSankey3 = './data/dataSankey3.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -423,6 +424,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataHexmap', (req, res) => {
     fs.readFile(dataPathHexmap, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataSankey3', (req, res) => {
+    fs.readFile(dataPathSankey3, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
