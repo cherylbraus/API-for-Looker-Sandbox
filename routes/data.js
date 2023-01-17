@@ -40,7 +40,7 @@ const dataRoutes = (app, fs) => {
   const dataPathSparklineIH = './data/dataSparklineIH.json';
   const dataPathHexmap = './data/dataHexmap.json';
   const dataPathSankey3 = './data/dataSankey3.json';
-  const dataPathASP = './data/asp_stub.csv';
+  // const dataPathASP = './data/asp_stub.csv';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
