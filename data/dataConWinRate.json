@@ -1,0 +1,2015 @@
+{"queryResponse": {
+    "parent_id": "6d31d9d4bc52c94e733795c7b4143670",
+    "sql_changed": false,
+    "aggregate_table_used_info": null,
+    "added_params": null,
+    "data": [
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.75
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.3094776754352708
+                },
+                "Walmart-superior": {
+                    "value": 0.419325134066247
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.4417133206327663
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.6493984815794847e-10,
+                    "rendered": "2.6493984815794847E-10"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.76
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.2811612096679082
+                },
+                "Walmart-superior": {
+                    "value": 0.41841151628593143
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.41841151628593143
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.644518323218555e-10,
+                    "rendered": "2.644518323218555E-10"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.77
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.25448080263725514
+                },
+                "Walmart-superior": {
+                    "value": 0.4174984578799452
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.4174984578799452
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.6396471540473456e-10,
+                    "rendered": "2.6396471540473456E-10"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.78
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.22952379730608183
+                },
+                "Walmart-superior": {
+                    "value": 0.18040547769006682
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.34464747255911177
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.634784957507903e-10,
+                    "rendered": "2.634784957507903E-10"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.79
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.20633692819531615
+                },
+                "Walmart-superior": {
+                    "value": 0.17985118361976596
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.31457904680101534
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.6299317170727245e-10,
+                    "rendered": "2.6299317170727245E-10"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.8
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.18493021597555573
+                },
+                "Walmart-superior": {
+                    "value": 0.17929822004276508
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.2859891340751741
+                },
+                "win_rate_at_bid_min": {
+                    "value": 4.7002057639290747e-17,
+                    "rendered": "4.7002057639290747E-17"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.81
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.1652818726390922
+                },
+                "Walmart-superior": {
+                    "value": 0.1787465860551965
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.25901566686474387
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.2096295675912087e-17,
+                    "rendered": "2.2096295675912087E-17"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.82
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.1473437317662118
+                },
+                "Walmart-superior": {
+                    "value": 0.1781962807388488
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.23375337040362856
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.0387764006935921e-17,
+                    "rendered": "1.0387764006935921E-17"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.83
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.1310467838930205
+                },
+                "Walmart-superior": {
+                    "value": 0.17764730316125635
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.21025582322251682
+                },
+                "win_rate_at_bid_min": {
+                    "value": 4.883426735705035e-18,
+                    "rendered": "4.883426735705035E-18"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.84
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.11630648632559393
+                },
+                "Walmart-superior": {
+                    "value": 0.17709965237578865
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.18853912305565962
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.295764195940098e-18,
+                    "rendered": "2.295764195940098E-18"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.85
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.10302761306663755
+                },
+                "Walmart-superior": {
+                    "value": 0.17655332742173988
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17655332742173988
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.0792694410310249e-18,
+                    "rendered": "1.0792694410310249E-18"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.86
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.09110850119436054
+                },
+                "Walmart-superior": {
+                    "value": 0.17600832732441812
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17600832732441812
+                },
+                "win_rate_at_bid_min": {
+                    "value": 5.073789931925047e-19,
+                    "rendered": "5.073789931925047E-19"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.87
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.08044462719547935
+                },
+                "Walmart-superior": {
+                    "value": 0.1754646510952348
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.1754646510952348
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.385256479485766e-19,
+                    "rendered": "2.385256479485766E-19"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.88
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.07093150681798845
+                },
+                "Walmart-superior": {
+                    "value": 0.17492229773179407
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17492229773179407
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.1213409599656794e-19,
+                    "rendered": "1.1213409599656794E-19"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.89
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.062466954637492
+                },
+                "Walmart-superior": {
+                    "value": 0.17438126621798208
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17438126621798208
+                },
+                "win_rate_at_bid_min": {
+                    "value": 5.2715737670602314e-20,
+                    "rendered": "5.2715737670602314E-20"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.9
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.054952766483520966
+                },
+                "Walmart-superior": {
+                    "value": 0.1738415555240562
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.1738415555240562
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.47823730459349e-20,
+                    "rendered": "2.47823730459349E-20"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.91
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.04829590198625547
+                },
+                "Walmart-superior": {
+                    "value": 0.17330316460673426
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17330316460673426
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.165052488927619e-20,
+                    "rendered": "1.165052488927619E-20"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.92
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.04240924892558606
+                },
+                "Walmart-superior": {
+                    "value": 0.17276609240928378
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17276609240928378
+                },
+                "win_rate_at_bid_min": {
+                    "value": 5.477067508589933e-21,
+                    "rendered": "5.477067508589933E-21"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.93
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.03721204875209795
+                },
+                "Walmart-superior": {
+                    "value": 0.17223033786161104
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17223033786161104
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.5748426597726277e-21,
+                    "rendered": "2.5748426597726277E-21"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.94
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.03263005610934678
+                },
+                "Walmart-superior": {
+                    "value": 0.17169589988035017
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17169589988035017
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.2104679579331545e-21,
+                    "rendered": "1.2104679579331545E-21"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.95
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.028595496376705557
+                },
+                "Walmart-superior": {
+                    "value": 0.17116277736895213
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17116277736895213
+                },
+                "win_rate_at_bid_min": {
+                    "value": 5.690571700067769e-22,
+                    "rendered": "5.690571700067769E-22"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.96
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.02504687559513988
+                },
+                "Walmart-superior": {
+                    "value": 0.1706309692177737
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.1706309692177737
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.675213834565508e-22,
+                    "rendered": "2.675213834565508E-22"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.97
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.021928687593729047
+                },
+                "Walmart-superior": {
+                    "value": 0.17010047430416636
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.17010047430416636
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.2576537890851395e-22,
+                    "rendered": "1.2576537890851395E-22"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.98
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.01919105429177912
+                },
+                "Walmart-superior": {
+                    "value": 0.1695712914925652
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.1695712914925652
+                },
+                "win_rate_at_bid_min": {
+                    "value": 5.912398600678951e-23,
+                    "rendered": "5.912398600678951E-23"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 0.99
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.01678932732335934
+                },
+                "Walmart-superior": {
+                    "value": 0.16904341963457734
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16904341963457734
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.77949762619003e-23,
+                    "rendered": "2.77949762619003E-23"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1,
+                "filterable_value": "1.0"
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.01468367243863117
+                },
+                "Walmart-superior": {
+                    "value": 0.168516857569071
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.168516857569071
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.3066789937181448e-23,
+                    "rendered": "1.3066789937181448E-23"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.01
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.01283865257425368
+                },
+                "Walmart-superior": {
+                    "value": 0.16799160412226385
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16799160412226385
+                },
+                "win_rate_at_bid_min": {
+                    "value": 6.142872641934177e-24,
+                    "rendered": "6.142872641934177E-24"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.02
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.011222820973196575
+                },
+                "Walmart-superior": {
+                    "value": 0.1674676581078116
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.1674676581078116
+                },
+                "win_rate_at_bid_min": {
+                    "value": 2.8878465542364504e-24,
+                    "rendered": "2.8878465542364504E-24"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.03
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.009808332153335129
+                },
+                "Walmart-superior": {
+                    "value": 0.16694501832689632
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16694501832689632
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.3576152733307698e-24,
+                    "rendered": "1.3576152733307698E-24"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.04
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.008570575740615847
+                },
+                "Walmart-superior": {
+                    "value": 0.16642368356831486
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16642368356831486
+                },
+                "win_rate_at_bid_min": {
+                    "value": 6.382330902163591e-25,
+                    "rendered": "6.382330902163591E-25"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.05
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.0074878360636237715
+                },
+                "Walmart-superior": {
+                    "value": 0.165903652608567
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.165903652608567
+                },
+                "win_rate_at_bid_min": {
+                    "value": 3.000419083734554e-25,
+                    "rendered": "3.000419083734554E-25"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.06
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.0065409788291165205
+                },
+                "Walmart-superior": {
+                    "value": 0.16538492421194365
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16538492421194365
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.4105371244519461e-25,
+                    "rendered": "1.4105371244519461E-25"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.07
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.005713165053793451
+                },
+                "Walmart-superior": {
+                    "value": 0.16486749713061474
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16486749713061474
+                },
+                "win_rate_at_bid_min": {
+                    "value": 6.631123599509808e-26,
+                    "rendered": "6.631123599509808E-26"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.08
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.004989591623277281
+                },
+                "Walmart-superior": {
+                    "value": 0.16435137010471737
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16435137010471737
+                },
+                "win_rate_at_bid_min": {
+                    "value": 3.117379856915204e-26,
+                    "rendered": "3.117379856915204E-26"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.09
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.004357257307522633
+                },
+                "Walmart-superior": {
+                    "value": 0.16383654186244348
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.16383654186244348
+                },
+                "win_rate_at_bid_min": {
+                    "value": 1.465521947595543e-26,
+                    "rendered": "1.465521947595543E-26"
+                }
+            }
+        },
+        {
+            "contract_win_rate_output.price_dat_ratio": {
+                "value": 1.1
+            },
+            "average_of_win_rate_estimate_2": {
+                "Global-superior": {
+                    "value": 0.003804752719402267
+                },
+                "Walmart-superior": {
+                    "value": 0.1633230111201274
+                },
+                "win_rate_at_bid_max": {
+                    "value": 0.1633230111201274
+                },
+                "win_rate_at_bid_min": {
+                    "value": 6.889614604136376e-27,
+                    "rendered": "6.889614604136376E-27"
+                }
+            }
+        }
+    ],
+    "drill_menu_build_time": 0.079399,
+    "expired": false,
+    "fields": {
+        "measures": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Average of Win Rate Estimate",
+                "label_from_parameter": null,
+                "label_short": "Average of Win Rate Estimate",
+                "map_layer": null,
+                "name": "average_of_win_rate_estimate_2",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "average",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "contract_win_rate_output",
+                "view_label": "",
+                "dynamic": true,
+                "week_start_day": "monday",
+                "original_view": "contract_win_rate_output",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Average of Win Rate Estimate",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "contract_win_rate_output",
+                "suggest_dimension": "average_of_win_rate_estimate_2",
+                "suggest_explore": "contract_win_rate_output",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": null,
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "sql": "average_of_win_rate_estimate_2",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        "dimensions": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Contract Win Rate Output Price Dat Ratio",
+                "label_from_parameter": null,
+                "label_short": "Price Dat Ratio",
+                "map_layer": null,
+                "name": "contract_win_rate_output.price_dat_ratio",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "number",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "contract_win_rate_output",
+                "view_label": "Contract Win Rate Output",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "contract_win_rate_output",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Price Dat Ratio",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "contract_win_rate_output",
+                "suggest_dimension": "contract_win_rate_output.price_dat_ratio",
+                "suggest_explore": "contract_win_rate_output",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fcontract_win_rate_output.view.lkml?line=29",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "sql": "${TABLE}.\"PRICE_DAT_RATIO\" ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": false,
+                    "sort_index": 0
+                }
+            }
+        ],
+        "table_calculations": [],
+        "pivots": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Contract Win Rate Output Model Name",
+                "label_from_parameter": null,
+                "label_short": "Model Name",
+                "map_layer": null,
+                "name": "contract_win_rate_output.model_name",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "string",
+                "user_attribute_filter_types": [
+                    "string",
+                    "advanced_filter_string"
+                ],
+                "value_format": null,
+                "view": "contract_win_rate_output",
+                "view_label": "Contract Win Rate Output",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "contract_win_rate_output",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Model Name",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "contract_win_rate_output",
+                "suggest_dimension": "contract_win_rate_output.model_name",
+                "suggest_explore": "contract_win_rate_output",
+                "suggestable": true,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fcontract_win_rate_output.view.lkml?line=34",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "sql": "${TABLE}.\"MODEL_NAME\" ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": false,
+                    "sort_index": 1
+                }
+            }
+        ],
+        "measure_like": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Average of Win Rate Estimate",
+                "label_from_parameter": null,
+                "label_short": "Average of Win Rate Estimate",
+                "map_layer": null,
+                "name": "average_of_win_rate_estimate_2",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "average",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "contract_win_rate_output",
+                "view_label": "",
+                "dynamic": true,
+                "week_start_day": "monday",
+                "original_view": "contract_win_rate_output",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Average of Win Rate Estimate",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "contract_win_rate_output",
+                "suggest_dimension": "average_of_win_rate_estimate_2",
+                "suggest_explore": "contract_win_rate_output",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": null,
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "sql": "average_of_win_rate_estimate_2",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        "supermeasure_like": [],
+        "dimension_like": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Contract Win Rate Output Price Dat Ratio",
+                "label_from_parameter": null,
+                "label_short": "Price Dat Ratio",
+                "map_layer": null,
+                "name": "contract_win_rate_output.price_dat_ratio",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "number",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "contract_win_rate_output",
+                "view_label": "Contract Win Rate Output",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "contract_win_rate_output",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Price Dat Ratio",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "contract_win_rate_output",
+                "suggest_dimension": "contract_win_rate_output.price_dat_ratio",
+                "suggest_explore": "contract_win_rate_output",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fcontract_win_rate_output.view.lkml?line=29",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/contract_win_rate_output.view.lkml",
+                "sql": "${TABLE}.\"PRICE_DAT_RATIO\" ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": false,
+                    "sort_index": 0
+                }
+            }
+        ]
+    },
+    "fill_fields": [],
+    "forecast_result": null,
+    "has_row_totals": false,
+    "has_totals": false,
+    "id": "query-result-11:{\"hidden_points_if_no\":[],\"hidden_fields\":[]}",
+    "null_sort_treatment": "high",
+    "number_format": "1,234.56",
+    "pivots": [
+        {
+            "key": "Global-superior",
+            "data": {
+                "contract_win_rate_output.model_name": "Global-superior"
+            },
+            "sort_values": {
+                "contract_win_rate_output.model_name": "Global-superior"
+            },
+            "labels": {
+                "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>Global-superior</a>"
+            },
+            "is_total": false,
+            "metadata": {
+                "contract_win_rate_output.model_name": {
+                    "value": "Global-superior",
+                    "filterable_value": "\"Global-superior\""
+                }
+            }
+        },
+        {
+            "key": "Walmart-superior",
+            "data": {
+                "contract_win_rate_output.model_name": "Walmart-superior"
+            },
+            "sort_values": {
+                "contract_win_rate_output.model_name": "Walmart-superior"
+            },
+            "labels": {
+                "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>Walmart-superior</a>"
+            },
+            "is_total": false,
+            "metadata": {
+                "contract_win_rate_output.model_name": {
+                    "value": "Walmart-superior",
+                    "filterable_value": "\"Walmart-superior\""
+                }
+            }
+        },
+        {
+            "key": "win_rate_at_bid_max",
+            "data": {
+                "contract_win_rate_output.model_name": "win_rate_at_bid_max"
+            },
+            "sort_values": {
+                "contract_win_rate_output.model_name": "win_rate_at_bid_max"
+            },
+            "labels": {
+                "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>win_rate_at_bid_max</a>"
+            },
+            "is_total": false,
+            "metadata": {
+                "contract_win_rate_output.model_name": {
+                    "value": "win_rate_at_bid_max",
+                    "filterable_value": "\"win_rate_at_bid_max\""
+                }
+            }
+        },
+        {
+            "key": "win_rate_at_bid_min",
+            "data": {
+                "contract_win_rate_output.model_name": "win_rate_at_bid_min"
+            },
+            "sort_values": {
+                "contract_win_rate_output.model_name": "win_rate_at_bid_min"
+            },
+            "labels": {
+                "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>win_rate_at_bid_min</a>"
+            },
+            "is_total": false,
+            "metadata": {
+                "contract_win_rate_output.model_name": {
+                    "value": "win_rate_at_bid_min",
+                    "filterable_value": "\"win_rate_at_bid_min\""
+                }
+            }
+        }
+    ],
+    "ran_at": "2023-01-17T20:23:33+00:00",
+    "sql": "SELECT * FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY z___min_rank) as z___pivot_row_rank, RANK() OVER (PARTITION BY z__pivot_col_rank ORDER BY z___min_rank) as z__pivot_col_ordering, CASE WHEN z___min_rank = z___rank THEN 1 ELSE 0 END AS z__is_highest_ranked_cell FROM (\nSELECT *, MIN(z___rank) OVER (PARTITION BY \"contract_win_rate_output.price_dat_ratio\") as z___min_rank FROM (\nSELECT *, RANK() OVER (ORDER BY \"contract_win_rate_output.price_dat_ratio\" ASC, z__pivot_col_rank) AS z___rank FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY CASE WHEN \"contract_win_rate_output.model_name\" IS NULL THEN 1 ELSE 0 END, \"contract_win_rate_output.model_name\") AS z__pivot_col_rank FROM (\nSELECT\n    contract_win_rate_output.\"MODEL_NAME\"  AS \"contract_win_rate_output.model_name\",\n    contract_win_rate_output.\"PRICE_DAT_RATIO\"  AS \"contract_win_rate_output.price_dat_ratio\",\n    AVG(CAST((contract_win_rate_output.\"WIN_RATE_ESTIMATE\") AS DOUBLE PRECISION)) AS average_of_win_rate_estimate_2\nFROM mlp_prod.public.contract_win_rate_output  AS contract_win_rate_output\nWHERE (contract_win_rate_output.\"RFP_LANE_ID\" ) = 2508383 AND (contract_win_rate_output.\"INPUT_FILENAME\" ) = 'cwr_csv_13318_1673975110.csv' AND ((( contract_win_rate_output.\"LOADED_AT\"  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(TO_TIMESTAMP('2023-01-17 13:05') AS TIMESTAMP_NTZ)))) AND ( contract_win_rate_output.\"LOADED_AT\"  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('minute', 1, TO_TIMESTAMP('2023-01-17 13:05')) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    1,\n    2) ww\n) bb WHERE z__pivot_col_rank <= 16384\n) aa\n) xx\n) zz\n WHERE (z__pivot_col_rank <= 50 OR z__is_highest_ranked_cell = 1) AND (z___pivot_row_rank <= 500 OR z__pivot_col_ordering = 1) ORDER BY z___pivot_row_rank",
+    "sql_explain": "EXPLAIN SELECT * FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY z___min_rank) as z___pivot_row_rank, RANK() OVER (PARTITION BY z__pivot_col_rank ORDER BY z___min_rank) as z__pivot_col_ordering, CASE WHEN z___min_rank = z___rank THEN 1 ELSE 0 END AS z__is_highest_ranked_cell FROM (\nSELECT *, MIN(z___rank) OVER (PARTITION BY \"contract_win_rate_output.price_dat_ratio\") as z___min_rank FROM (\nSELECT *, RANK() OVER (ORDER BY \"contract_win_rate_output.price_dat_ratio\" ASC, z__pivot_col_rank) AS z___rank FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY CASE WHEN \"contract_win_rate_output.model_name\" IS NULL THEN 1 ELSE 0 END, \"contract_win_rate_output.model_name\") AS z__pivot_col_rank FROM (\nSELECT\n    contract_win_rate_output.\"MODEL_NAME\"  AS \"contract_win_rate_output.model_name\",\n    contract_win_rate_output.\"PRICE_DAT_RATIO\"  AS \"contract_win_rate_output.price_dat_ratio\",\n    AVG(CAST((contract_win_rate_output.\"WIN_RATE_ESTIMATE\") AS DOUBLE PRECISION)) AS average_of_win_rate_estimate_2\nFROM mlp_prod.public.contract_win_rate_output  AS contract_win_rate_output\nWHERE (contract_win_rate_output.\"RFP_LANE_ID\" ) = 2508383 AND (contract_win_rate_output.\"INPUT_FILENAME\" ) = 'cwr_csv_13318_1673975110.csv' AND ((( contract_win_rate_output.\"LOADED_AT\"  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(TO_TIMESTAMP('2023-01-17 13:05') AS TIMESTAMP_NTZ)))) AND ( contract_win_rate_output.\"LOADED_AT\"  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('minute', 1, TO_TIMESTAMP('2023-01-17 13:05')) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    1,\n    2) ww\n) bb WHERE z__pivot_col_rank <= 16384\n) aa\n) xx\n) zz\n WHERE (z__pivot_col_rank <= 50 OR z__is_highest_ranked_cell = 1) AND (z___pivot_row_rank <= 500 OR z__pivot_col_ordering = 1) ORDER BY z___pivot_row_rank",
+    "supports_pivot_in_db": true,
+    "timezone": "America/New_York",
+    "is_local": true,
+    "table_calcs_complete": true,
+    "tracked_attributes": {
+        "result.drill_menu_build_time": 0.079399,
+        "result.from_cache": true,
+        "result.sql.length": 1764,
+        "result.supports_pivot_in_db": true
+    },
+    "pivotTableColumns": [
+        [
+            {
+                "key": "Global-superior",
+                "data": {
+                    "contract_win_rate_output.model_name": "Global-superior"
+                },
+                "sort_values": {
+                    "contract_win_rate_output.model_name": "Global-superior"
+                },
+                "labels": {
+                    "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>Global-superior</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "contract_win_rate_output.model_name": {
+                        "value": "Global-superior",
+                        "filterable_value": "\"Global-superior\""
+                    }
+                }
+            },
+            {
+                "name": "average_of_win_rate_estimate_2",
+                "category": "measure",
+                "dynamic": true,
+                "is_table_calculation": false,
+                "label": "Average of Win Rate Estimate",
+                "label_short": "Average of Win Rate Estimate",
+                "measure": true,
+                "sortable": true,
+                "can_filter": true,
+                "align": "right",
+                "type": "number",
+                "is_numeric": true
+            }
+        ],
+        [
+            {
+                "key": "Walmart-superior",
+                "data": {
+                    "contract_win_rate_output.model_name": "Walmart-superior"
+                },
+                "sort_values": {
+                    "contract_win_rate_output.model_name": "Walmart-superior"
+                },
+                "labels": {
+                    "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>Walmart-superior</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "contract_win_rate_output.model_name": {
+                        "value": "Walmart-superior",
+                        "filterable_value": "\"Walmart-superior\""
+                    }
+                }
+            },
+            {
+                "name": "average_of_win_rate_estimate_2",
+                "category": "measure",
+                "dynamic": true,
+                "is_table_calculation": false,
+                "label": "Average of Win Rate Estimate",
+                "label_short": "Average of Win Rate Estimate",
+                "measure": true,
+                "sortable": true,
+                "can_filter": true,
+                "align": "right",
+                "type": "number",
+                "is_numeric": true
+            }
+        ],
+        [
+            {
+                "key": "win_rate_at_bid_max",
+                "data": {
+                    "contract_win_rate_output.model_name": "win_rate_at_bid_max"
+                },
+                "sort_values": {
+                    "contract_win_rate_output.model_name": "win_rate_at_bid_max"
+                },
+                "labels": {
+                    "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>win_rate_at_bid_max</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "contract_win_rate_output.model_name": {
+                        "value": "win_rate_at_bid_max",
+                        "filterable_value": "\"win_rate_at_bid_max\""
+                    }
+                }
+            },
+            {
+                "name": "average_of_win_rate_estimate_2",
+                "category": "measure",
+                "dynamic": true,
+                "is_table_calculation": false,
+                "label": "Average of Win Rate Estimate",
+                "label_short": "Average of Win Rate Estimate",
+                "measure": true,
+                "sortable": true,
+                "can_filter": true,
+                "align": "right",
+                "type": "number",
+                "is_numeric": true
+            }
+        ],
+        [
+            {
+                "key": "win_rate_at_bid_min",
+                "data": {
+                    "contract_win_rate_output.model_name": "win_rate_at_bid_min"
+                },
+                "sort_values": {
+                    "contract_win_rate_output.model_name": "win_rate_at_bid_min"
+                },
+                "labels": {
+                    "contract_win_rate_output.model_name": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>win_rate_at_bid_min</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "contract_win_rate_output.model_name": {
+                        "value": "win_rate_at_bid_min",
+                        "filterable_value": "\"win_rate_at_bid_min\""
+                    }
+                }
+            },
+            {
+                "name": "average_of_win_rate_estimate_2",
+                "category": "measure",
+                "dynamic": true,
+                "is_table_calculation": false,
+                "label": "Average of Win Rate Estimate",
+                "label_short": "Average of Win Rate Estimate",
+                "measure": true,
+                "sortable": true,
+                "can_filter": true,
+                "align": "right",
+                "type": "number",
+                "is_numeric": true
+            }
+        ]
+    ],
+    "sorts": []
+}, "data": [
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.75
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.3094776754352708
+            },
+            "Walmart-superior": {
+                "value": 0.419325134066247
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.4417133206327663
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.6493984815794847e-10,
+                "rendered": "2.6493984815794847E-10"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.76
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.2811612096679082
+            },
+            "Walmart-superior": {
+                "value": 0.41841151628593143
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.41841151628593143
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.644518323218555e-10,
+                "rendered": "2.644518323218555E-10"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.77
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.25448080263725514
+            },
+            "Walmart-superior": {
+                "value": 0.4174984578799452
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.4174984578799452
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.6396471540473456e-10,
+                "rendered": "2.6396471540473456E-10"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.78
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.22952379730608183
+            },
+            "Walmart-superior": {
+                "value": 0.18040547769006682
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.34464747255911177
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.634784957507903e-10,
+                "rendered": "2.634784957507903E-10"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.79
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.20633692819531615
+            },
+            "Walmart-superior": {
+                "value": 0.17985118361976596
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.31457904680101534
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.6299317170727245e-10,
+                "rendered": "2.6299317170727245E-10"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.8
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.18493021597555573
+            },
+            "Walmart-superior": {
+                "value": 0.17929822004276508
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.2859891340751741
+            },
+            "win_rate_at_bid_min": {
+                "value": 4.7002057639290747e-17,
+                "rendered": "4.7002057639290747E-17"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.81
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.1652818726390922
+            },
+            "Walmart-superior": {
+                "value": 0.1787465860551965
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.25901566686474387
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.2096295675912087e-17,
+                "rendered": "2.2096295675912087E-17"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.82
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.1473437317662118
+            },
+            "Walmart-superior": {
+                "value": 0.1781962807388488
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.23375337040362856
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.0387764006935921e-17,
+                "rendered": "1.0387764006935921E-17"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.83
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.1310467838930205
+            },
+            "Walmart-superior": {
+                "value": 0.17764730316125635
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.21025582322251682
+            },
+            "win_rate_at_bid_min": {
+                "value": 4.883426735705035e-18,
+                "rendered": "4.883426735705035E-18"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.84
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.11630648632559393
+            },
+            "Walmart-superior": {
+                "value": 0.17709965237578865
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.18853912305565962
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.295764195940098e-18,
+                "rendered": "2.295764195940098E-18"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.85
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.10302761306663755
+            },
+            "Walmart-superior": {
+                "value": 0.17655332742173988
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17655332742173988
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.0792694410310249e-18,
+                "rendered": "1.0792694410310249E-18"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.86
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.09110850119436054
+            },
+            "Walmart-superior": {
+                "value": 0.17600832732441812
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17600832732441812
+            },
+            "win_rate_at_bid_min": {
+                "value": 5.073789931925047e-19,
+                "rendered": "5.073789931925047E-19"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.87
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.08044462719547935
+            },
+            "Walmart-superior": {
+                "value": 0.1754646510952348
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.1754646510952348
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.385256479485766e-19,
+                "rendered": "2.385256479485766E-19"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.88
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.07093150681798845
+            },
+            "Walmart-superior": {
+                "value": 0.17492229773179407
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17492229773179407
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.1213409599656794e-19,
+                "rendered": "1.1213409599656794E-19"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.89
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.062466954637492
+            },
+            "Walmart-superior": {
+                "value": 0.17438126621798208
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17438126621798208
+            },
+            "win_rate_at_bid_min": {
+                "value": 5.2715737670602314e-20,
+                "rendered": "5.2715737670602314E-20"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.9
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.054952766483520966
+            },
+            "Walmart-superior": {
+                "value": 0.1738415555240562
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.1738415555240562
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.47823730459349e-20,
+                "rendered": "2.47823730459349E-20"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.91
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.04829590198625547
+            },
+            "Walmart-superior": {
+                "value": 0.17330316460673426
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17330316460673426
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.165052488927619e-20,
+                "rendered": "1.165052488927619E-20"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.92
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.04240924892558606
+            },
+            "Walmart-superior": {
+                "value": 0.17276609240928378
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17276609240928378
+            },
+            "win_rate_at_bid_min": {
+                "value": 5.477067508589933e-21,
+                "rendered": "5.477067508589933E-21"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.93
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.03721204875209795
+            },
+            "Walmart-superior": {
+                "value": 0.17223033786161104
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17223033786161104
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.5748426597726277e-21,
+                "rendered": "2.5748426597726277E-21"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.94
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.03263005610934678
+            },
+            "Walmart-superior": {
+                "value": 0.17169589988035017
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17169589988035017
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.2104679579331545e-21,
+                "rendered": "1.2104679579331545E-21"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.95
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.028595496376705557
+            },
+            "Walmart-superior": {
+                "value": 0.17116277736895213
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17116277736895213
+            },
+            "win_rate_at_bid_min": {
+                "value": 5.690571700067769e-22,
+                "rendered": "5.690571700067769E-22"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.96
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.02504687559513988
+            },
+            "Walmart-superior": {
+                "value": 0.1706309692177737
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.1706309692177737
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.675213834565508e-22,
+                "rendered": "2.675213834565508E-22"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.97
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.021928687593729047
+            },
+            "Walmart-superior": {
+                "value": 0.17010047430416636
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.17010047430416636
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.2576537890851395e-22,
+                "rendered": "1.2576537890851395E-22"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.98
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.01919105429177912
+            },
+            "Walmart-superior": {
+                "value": 0.1695712914925652
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.1695712914925652
+            },
+            "win_rate_at_bid_min": {
+                "value": 5.912398600678951e-23,
+                "rendered": "5.912398600678951E-23"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 0.99
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.01678932732335934
+            },
+            "Walmart-superior": {
+                "value": 0.16904341963457734
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16904341963457734
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.77949762619003e-23,
+                "rendered": "2.77949762619003E-23"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1,
+            "filterable_value": "1.0"
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.01468367243863117
+            },
+            "Walmart-superior": {
+                "value": 0.168516857569071
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.168516857569071
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.3066789937181448e-23,
+                "rendered": "1.3066789937181448E-23"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.01
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.01283865257425368
+            },
+            "Walmart-superior": {
+                "value": 0.16799160412226385
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16799160412226385
+            },
+            "win_rate_at_bid_min": {
+                "value": 6.142872641934177e-24,
+                "rendered": "6.142872641934177E-24"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.02
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.011222820973196575
+            },
+            "Walmart-superior": {
+                "value": 0.1674676581078116
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.1674676581078116
+            },
+            "win_rate_at_bid_min": {
+                "value": 2.8878465542364504e-24,
+                "rendered": "2.8878465542364504E-24"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.03
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.009808332153335129
+            },
+            "Walmart-superior": {
+                "value": 0.16694501832689632
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16694501832689632
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.3576152733307698e-24,
+                "rendered": "1.3576152733307698E-24"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.04
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.008570575740615847
+            },
+            "Walmart-superior": {
+                "value": 0.16642368356831486
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16642368356831486
+            },
+            "win_rate_at_bid_min": {
+                "value": 6.382330902163591e-25,
+                "rendered": "6.382330902163591E-25"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.05
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.0074878360636237715
+            },
+            "Walmart-superior": {
+                "value": 0.165903652608567
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.165903652608567
+            },
+            "win_rate_at_bid_min": {
+                "value": 3.000419083734554e-25,
+                "rendered": "3.000419083734554E-25"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.06
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.0065409788291165205
+            },
+            "Walmart-superior": {
+                "value": 0.16538492421194365
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16538492421194365
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.4105371244519461e-25,
+                "rendered": "1.4105371244519461E-25"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.07
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.005713165053793451
+            },
+            "Walmart-superior": {
+                "value": 0.16486749713061474
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16486749713061474
+            },
+            "win_rate_at_bid_min": {
+                "value": 6.631123599509808e-26,
+                "rendered": "6.631123599509808E-26"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.08
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.004989591623277281
+            },
+            "Walmart-superior": {
+                "value": 0.16435137010471737
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16435137010471737
+            },
+            "win_rate_at_bid_min": {
+                "value": 3.117379856915204e-26,
+                "rendered": "3.117379856915204E-26"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.09
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.004357257307522633
+            },
+            "Walmart-superior": {
+                "value": 0.16383654186244348
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.16383654186244348
+            },
+            "win_rate_at_bid_min": {
+                "value": 1.465521947595543e-26,
+                "rendered": "1.465521947595543E-26"
+            }
+        }
+    },
+    {
+        "contract_win_rate_output.price_dat_ratio": {
+            "value": 1.1
+        },
+        "average_of_win_rate_estimate_2": {
+            "Global-superior": {
+                "value": 0.003804752719402267
+            },
+            "Walmart-superior": {
+                "value": 0.1633230111201274
+            },
+            "win_rate_at_bid_max": {
+                "value": 0.1633230111201274
+            },
+            "win_rate_at_bid_min": {
+                "value": 6.889614604136376e-27,
+                "rendered": "6.889614604136376E-27"
+            }
+        }
+    }
+]}
