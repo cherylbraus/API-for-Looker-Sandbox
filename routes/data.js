@@ -44,6 +44,7 @@ const dataRoutes = (app, fs) => {
   const dataPathConWinRate = './data/dataConWinRate.json';
   const dataPathConWinRate2 = './data/dataConWinRate2.json';
   const dataPathConWinRate3 = './data/dataConWinRate3.json';
+  const dataPathCycleChart = './data/dataCycleChart.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -468,6 +469,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataConWinRate3', (req, res) => {
     fs.readFile(dataPathConWinRate3, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataCycleChart', (req, res) => {
+    fs.readFile(dataPathCycleChart, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
