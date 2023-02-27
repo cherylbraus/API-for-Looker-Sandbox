@@ -1,0 +1,1748 @@
+{"queryResponse": {
+    "parent_id": "fadc9a64ba6c58b2099fa3a467bd19b1",
+    "sql_changed": true,
+    "aggregate_table_used_info": null,
+    "added_params": null,
+    "data": [
+        {
+            "shipments.created_month": {
+                "value": "2023-02",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-02",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-02"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-02",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-02"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-02",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-02"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-02",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-02"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 13099,
+                "rendered": "13,099",
+                "links": [
+                    {
+                        "label": "Show All 13,099",
+                        "label_prefix": "Show All",
+                        "label_value": "13,099",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2023-02&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2023-01",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-01",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-01"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-01",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-01"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-01",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-01"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2023-01",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2023-01"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 15028,
+                "rendered": "15,028",
+                "links": [
+                    {
+                        "label": "Show All 15,028",
+                        "label_prefix": "Show All",
+                        "label_value": "15,028",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2023-01&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-12",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-12",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-12"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-12",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-12"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-12",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-12"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-12",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-12"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 13599,
+                "rendered": "13,599",
+                "links": [
+                    {
+                        "label": "Show All 13,599",
+                        "label_prefix": "Show All",
+                        "label_value": "13,599",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-12&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-11",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-11",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-11"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-11",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-11"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-11",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-11"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-11",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-11"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 13049,
+                "rendered": "13,049",
+                "links": [
+                    {
+                        "label": "Show All 13,049",
+                        "label_prefix": "Show All",
+                        "label_value": "13,049",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-11&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-10",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-10",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-10"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-10",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-10"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-10",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-10"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-10",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-10"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 13602,
+                "rendered": "13,602",
+                "links": [
+                    {
+                        "label": "Show All 13,602",
+                        "label_prefix": "Show All",
+                        "label_value": "13,602",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-10&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-09",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-09",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-09"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-09",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-09"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-09",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-09"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-09",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-09"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 15512,
+                "rendered": "15,512",
+                "links": [
+                    {
+                        "label": "Show All 15,512",
+                        "label_prefix": "Show All",
+                        "label_value": "15,512",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-09&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-08",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-08",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-08"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-08",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-08"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-08",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-08"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-08",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-08"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 16105,
+                "rendered": "16,105",
+                "links": [
+                    {
+                        "label": "Show All 16,105",
+                        "label_prefix": "Show All",
+                        "label_value": "16,105",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-08&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-07",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-07",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-07"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-07",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-07"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-07",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-07"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-07",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-07"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 15913,
+                "rendered": "15,913",
+                "links": [
+                    {
+                        "label": "Show All 15,913",
+                        "label_prefix": "Show All",
+                        "label_value": "15,913",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-07&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-06",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-06",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-06"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-06",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-06"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-06",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-06"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-06",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-06"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 18384,
+                "rendered": "18,384",
+                "links": [
+                    {
+                        "label": "Show All 18,384",
+                        "label_prefix": "Show All",
+                        "label_value": "18,384",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-06&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-05",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-05",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-05"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-05",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-05"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-05",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-05"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-05",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-05"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 17274,
+                "rendered": "17,274",
+                "links": [
+                    {
+                        "label": "Show All 17,274",
+                        "label_prefix": "Show All",
+                        "label_value": "17,274",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-05&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-04",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-04",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-04"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-04",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-04"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-04",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-04"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-04",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-04"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 16918,
+                "rendered": "16,918",
+                "links": [
+                    {
+                        "label": "Show All 16,918",
+                        "label_prefix": "Show All",
+                        "label_value": "16,918",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-04&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        },
+        {
+            "shipments.created_month": {
+                "value": "2022-03",
+                "links": [
+                    {
+                        "label": "by Created Week",
+                        "label_prefix": "by",
+                        "label_value": "Created Week",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-03",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-03"
+                    },
+                    {
+                        "label": "by Created Date",
+                        "label_prefix": "by",
+                        "label_value": "Created Date",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-03",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-03"
+                    },
+                    {
+                        "label": "by Created Hour",
+                        "label_prefix": "by",
+                        "label_value": "Created Hour",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-03",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-03"
+                    },
+                    {
+                        "label": "by Created Time",
+                        "label_prefix": "by",
+                        "label_value": "Created Time",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                        "type": "drill",
+                        "type_label": "Drill into 2022-03",
+                        "type_label_prefix": "Drill into",
+                        "type_label_value": "2022-03"
+                    }
+                ]
+            },
+            "shipments.shipment_count": {
+                "value": 22451,
+                "rendered": "22,451",
+                "links": [
+                    {
+                        "label": "Show All 22,451",
+                        "label_prefix": "Show All",
+                        "label_value": "22,451",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-03&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            }
+        }
+    ],
+    "drill_menu_build_time": 0.048048,
+    "expired": false,
+    "fields": {
+        "measures": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "Count Unique Shipment ID. Does not Include TONUs",
+                "enumerations": null,
+                "field_group_label": "Counts",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Shipments Count Shipments",
+                "label_from_parameter": null,
+                "label_short": "Count Shipments",
+                "map_layer": null,
+                "name": "shipments.shipment_count",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "count_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "shipments",
+                "view_label": "Shipments",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipments",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Count Shipments",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipments",
+                "suggest_dimension": "shipments.shipment_count",
+                "suggest_explore": "shipments",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=2680",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                "sql": "${id} ",
+                "sql_case": null,
+                "filters": [
+                    {
+                        "field": "shipments.is_tonu",
+                        "condition": "No"
+                    }
+                ],
+                "times_used": 0
+            }
+        ],
+        "dimensions": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "The time the shipment was created. Synonymous with time we were Tendered the shipment from the Shipper",
+                "enumerations": null,
+                "field_group_label": "Timestamps",
+                "fill_style": "range",
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Shipments Created Month",
+                "label_from_parameter": null,
+                "label_short": "Created Month",
+                "map_layer": null,
+                "name": "shipments.created_month",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "date_month",
+                "user_attribute_filter_types": [
+                    "datetime",
+                    "advanced_filter_datetime"
+                ],
+                "value_format": null,
+                "view": "shipments",
+                "view_label": "Shipments",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipments",
+                "dimension_group": "shipments.created",
+                "error": null,
+                "field_group_variant": "Created Month",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipments",
+                "suggest_dimension": "shipments.created_month",
+                "suggest_explore": "shipments",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": true,
+                "can_time_filter": false,
+                "time_interval": {
+                    "name": "month",
+                    "count": 1
+                },
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=798",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                "sql": "${TABLE}.created_at ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": true,
+                    "sort_index": 0
+                }
+            }
+        ],
+        "table_calculations": [],
+        "pivots": [],
+        "measure_like": [
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "Count Unique Shipment ID. Does not Include TONUs",
+                "enumerations": null,
+                "field_group_label": "Counts",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Shipments Count Shipments",
+                "label_from_parameter": null,
+                "label_short": "Count Shipments",
+                "map_layer": null,
+                "name": "shipments.shipment_count",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "count_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "shipments",
+                "view_label": "Shipments",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipments",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Count Shipments",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipments",
+                "suggest_dimension": "shipments.shipment_count",
+                "suggest_explore": "shipments",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=2680",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                "sql": "${id} ",
+                "sql_case": null,
+                "filters": [
+                    {
+                        "field": "shipments.is_tonu",
+                        "condition": "No"
+                    }
+                ],
+                "times_used": 0
+            }
+        ],
+        "dimension_like": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "The time the shipment was created. Synonymous with time we were Tendered the shipment from the Shipper",
+                "enumerations": null,
+                "field_group_label": "Timestamps",
+                "fill_style": "range",
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Shipments Created Month",
+                "label_from_parameter": null,
+                "label_short": "Created Month",
+                "map_layer": null,
+                "name": "shipments.created_month",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "date_month",
+                "user_attribute_filter_types": [
+                    "datetime",
+                    "advanced_filter_datetime"
+                ],
+                "value_format": null,
+                "view": "shipments",
+                "view_label": "Shipments",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipments",
+                "dimension_group": "shipments.created",
+                "error": null,
+                "field_group_variant": "Created Month",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipments",
+                "suggest_dimension": "shipments.created_month",
+                "suggest_explore": "shipments",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": true,
+                "can_time_filter": false,
+                "time_interval": {
+                    "name": "month",
+                    "count": 1
+                },
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipments.view.lkml?line=798",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipments.view.lkml",
+                "sql": "${TABLE}.created_at ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": true,
+                    "sort_index": 0
+                }
+            }
+        ]
+    },
+    "fill_fields": [
+        "shipments.created_month"
+    ],
+    "forecast_result": null,
+    "has_row_totals": false,
+    "has_totals": false,
+    "id": "query-result-31:{\"hidden_points_if_no\":[],\"hidden_fields\":[]}",
+    "null_sort_treatment": "high",
+    "number_format": "1,234.56",
+    "ran_at": "2023-02-27T16:29:01+00:00",
+    "runtime": "0.927",
+    "sql": "-- raw sql results do not include filled-in values for 'shipments.created_month'\n\n\nSELECT\n    (TO_CHAR(DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.created_at  AS TIMESTAMP_NTZ))), 'YYYY-MM')) AS \"shipments.created_month\",\n    COUNT(DISTINCT CASE WHEN (CASE WHEN shipments.is_tonu  THEN 1 ELSE 0 END\n) = 0 THEN shipments.id  ELSE NULL END) AS \"shipments.shipment_count\"\nFROM stark_prod.recreated_tables.shipments  AS shipments\nWHERE ((( shipments.created_at  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', -11, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( shipments.created_at  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', 12, DATEADD('month', -11, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    (DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.created_at  AS TIMESTAMP_NTZ))))\nORDER BY\n    1 DESC\nFETCH NEXT 500 ROWS ONLY",
+    "sql_explain": "EXPLAIN SELECT\n    (TO_CHAR(DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.created_at  AS TIMESTAMP_NTZ))), 'YYYY-MM')) AS \"shipments.created_month\",\n    COUNT(DISTINCT CASE WHEN (CASE WHEN shipments.is_tonu  THEN 1 ELSE 0 END\n) = 0 THEN shipments.id  ELSE NULL END) AS \"shipments.shipment_count\"\nFROM stark_prod.recreated_tables.shipments  AS shipments\nWHERE ((( shipments.created_at  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', -11, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( shipments.created_at  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', 12, DATEADD('month', -11, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    (DATE_TRUNC('month', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipments.created_at  AS TIMESTAMP_NTZ))))\nORDER BY\n    1 DESC\nFETCH NEXT 500 ROWS ONLY",
+    "supports_pivot_in_db": true,
+    "timezone": "America/New_York",
+    "is_local": true,
+    "table_calcs_complete": true,
+    "tracked_attributes": {
+        "result.drill_menu_build_time": 0.048048,
+        "result.from_cache": false,
+        "result.runtime": "0.927",
+        "result.sql.length": 1170,
+        "result.supports_pivot_in_db": true
+    },
+    "sorts": []
+}, "data": [
+    {
+        "shipments.created_month": {
+            "value": "2023-02",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-02",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-02"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-02",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-02"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-02",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-02"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2023-02&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-02",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-02"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 13099,
+            "rendered": "13,099",
+            "links": [
+                {
+                    "label": "Show All 13,099",
+                    "label_prefix": "Show All",
+                    "label_value": "13,099",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2023-02&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2023-01",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-01",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-01"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-01",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-01"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-01",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-01"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2023-01&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2023-01",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2023-01"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 15028,
+            "rendered": "15,028",
+            "links": [
+                {
+                    "label": "Show All 15,028",
+                    "label_prefix": "Show All",
+                    "label_value": "15,028",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2023-01&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-12",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-12",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-12"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-12",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-12"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-12",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-12"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-12&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-12",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-12"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 13599,
+            "rendered": "13,599",
+            "links": [
+                {
+                    "label": "Show All 13,599",
+                    "label_prefix": "Show All",
+                    "label_value": "13,599",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-12&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-11",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-11",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-11"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-11",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-11"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-11",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-11"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-11&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-11",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-11"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 13049,
+            "rendered": "13,049",
+            "links": [
+                {
+                    "label": "Show All 13,049",
+                    "label_prefix": "Show All",
+                    "label_value": "13,049",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-11&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-10",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-10",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-10"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-10",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-10"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-10",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-10"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-10&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-10",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-10"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 13602,
+            "rendered": "13,602",
+            "links": [
+                {
+                    "label": "Show All 13,602",
+                    "label_prefix": "Show All",
+                    "label_value": "13,602",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-10&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-09",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-09",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-09"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-09",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-09"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-09",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-09"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-09&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-09",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-09"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 15512,
+            "rendered": "15,512",
+            "links": [
+                {
+                    "label": "Show All 15,512",
+                    "label_prefix": "Show All",
+                    "label_value": "15,512",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-09&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-08",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-08",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-08"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-08",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-08"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-08",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-08"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-08&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-08",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-08"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 16105,
+            "rendered": "16,105",
+            "links": [
+                {
+                    "label": "Show All 16,105",
+                    "label_prefix": "Show All",
+                    "label_value": "16,105",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-08&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-07",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-07",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-07"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-07",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-07"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-07",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-07"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-07&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-07",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-07"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 15913,
+            "rendered": "15,913",
+            "links": [
+                {
+                    "label": "Show All 15,913",
+                    "label_prefix": "Show All",
+                    "label_value": "15,913",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-07&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-06",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-06",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-06"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-06",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-06"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-06",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-06"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-06&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-06",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-06"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 18384,
+            "rendered": "18,384",
+            "links": [
+                {
+                    "label": "Show All 18,384",
+                    "label_prefix": "Show All",
+                    "label_value": "18,384",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-06&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-05",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-05",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-05"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-05",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-05"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-05",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-05"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-05&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-05",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-05"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 17274,
+            "rendered": "17,274",
+            "links": [
+                {
+                    "label": "Show All 17,274",
+                    "label_prefix": "Show All",
+                    "label_value": "17,274",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-05&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-04",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-04",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-04"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-04",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-04"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-04",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-04"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-04&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-04",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-04"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 16918,
+            "rendered": "16,918",
+            "links": [
+                {
+                    "label": "Show All 16,918",
+                    "label_prefix": "Show All",
+                    "label_value": "16,918",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-04&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    },
+    {
+        "shipments.created_month": {
+            "value": "2022-03",
+            "links": [
+                {
+                    "label": "by Created Week",
+                    "label_prefix": "by",
+                    "label_value": "Created Week",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_week,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-03",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-03"
+                },
+                {
+                    "label": "by Created Date",
+                    "label_prefix": "by",
+                    "label_value": "Created Date",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_date,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-03",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-03"
+                },
+                {
+                    "label": "by Created Hour",
+                    "label_prefix": "by",
+                    "label_value": "Created Hour",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_hour,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-03",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-03"
+                },
+                {
+                    "label": "by Created Time",
+                    "label_prefix": "by",
+                    "label_value": "Created Time",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.created_time,shipments.shipment_count&f[shipments.created_month]=2022-03&limit=500&column_limit=50",
+                    "type": "drill",
+                    "type_label": "Drill into 2022-03",
+                    "type_label_prefix": "Drill into",
+                    "type_label_value": "2022-03"
+                }
+            ]
+        },
+        "shipments.shipment_count": {
+            "value": 22451,
+            "rendered": "22,451",
+            "links": [
+                {
+                    "label": "Show All 22,451",
+                    "label_prefix": "Show All",
+                    "label_value": "22,451",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.created_month]=2022-03&f[shipments.is_tonu]=No&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        }
+    }
+]}
