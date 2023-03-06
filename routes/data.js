@@ -40,7 +40,7 @@ const dataRoutes = (app, fs) => {
   const dataPathSparklineIH = './data/dataSparklineIH.json';
   const dataPathHexmap = './data/dataHexmap.json';
   const dataPathSankey3 = './data/dataSankey3.json';
-  // const dataPathASP = './data/asp_stub.csv';
+  const dataPathASP = './data/dataASP.json';
   const dataPathConWinRate = './data/dataConWinRate.json';
   const dataPathConWinRate2 = './data/dataConWinRate2.json';
   const dataPathConWinRate3 = './data/dataConWinRate3.json';
@@ -501,6 +501,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataDivergingSimple', (req, res) => {
     fs.readFile(dataPathDivergingSimple, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataASP', (req, res) => {
+    fs.readFile(dataPathASP, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
