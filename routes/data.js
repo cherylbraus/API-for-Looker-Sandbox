@@ -47,6 +47,7 @@ const dataRoutes = (app, fs) => {
   const dataPathCycleChart = './data/dataCycleChart.json';
   const dataPathLineTest = './data/dataLineTest.json';
   const dataPathDivergingSimple = './data/dataDivergingSimple.json';
+  const dataPathStackedDiverging = './data/dataStackedDiverging.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -511,6 +512,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataASP', (req, res) => {
     fs.readFile(dataPathASP, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataStackedDiverging', (req, res) => {
+    fs.readFile(dataPathStackedDiverging, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
