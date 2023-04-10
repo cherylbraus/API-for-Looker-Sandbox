@@ -48,6 +48,7 @@ const dataRoutes = (app, fs) => {
   const dataPathLineTest = './data/dataLineTest.json';
   const dataPathDivergingSimple = './data/dataDivergingSimple.json';
   const dataPathStackedDiverging = './data/dataStackedDiverging.json';
+  const dataPathNewIronheart = './data/dataNewIronheart.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -522,6 +523,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataStackedDiverging', (req, res) => {
     fs.readFile(dataPathStackedDiverging, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataNewIronheart', (req, res) => {
+    fs.readFile(dataPathNewIronheart, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
