@@ -49,6 +49,8 @@ const dataRoutes = (app, fs) => {
   const dataPathDivergingSimple = './data/dataDivergingSimple.json';
   const dataPathStackedDiverging = './data/dataStackedDiverging.json';
   const dataPathNewIronheart = './data/dataNewIronheart.json';
+  const dataPathHeatmapWorks = './data/dataHeatmapWorks.json';
+  const dataPathHeatmapTableCalc = './data/dataHeatmapTableCalc.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -533,6 +535,26 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataNewIronheart', (req, res) => {
     fs.readFile(dataPathNewIronheart, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataHeatmapWorks', (req, res) => {
+    fs.readFile(dataPathHeatmapWorks, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataHeatmapTableCalc', (req, res) => {
+    fs.readFile(dataPathHeatmapTableCalc, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }

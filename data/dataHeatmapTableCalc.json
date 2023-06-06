@@ -1,0 +1,1407 @@
+{"queryResponse": {
+    "parent_id": "4f5b44d5296ff791abe73640088a13e5",
+    "sql_changed": false,
+    "aggregate_table_used_info": null,
+    "added_params": null,
+    "data": [
+        {
+            "shipper_applications.name": {
+                "value": "Niagara Bottling LLC"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 40434,
+                    "rendered": "40,434"
+                },
+                "quick_request": {
+                    "value": null
+                },
+                "smart_appointment": {
+                    "value": null
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 40444,
+                    "rendered": "40444"
+                },
+                "quick_request": {
+                    "value": null,
+                    "rendered": "null"
+                },
+                "smart_appointment": {
+                    "value": null,
+                    "rendered": "null"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Anheuser-Busch",
+                "filterable_value": "\"Anheuser-Busch\""
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 8699,
+                    "rendered": "8,699"
+                },
+                "quick_request": {
+                    "value": null
+                },
+                "smart_appointment": {
+                    "value": null
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 8709,
+                    "rendered": "8709"
+                },
+                "quick_request": {
+                    "value": null,
+                    "rendered": "null"
+                },
+                "smart_appointment": {
+                    "value": null,
+                    "rendered": "null"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Target"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 25
+                },
+                "quick_request": {
+                    "value": 3616,
+                    "rendered": "3,616"
+                },
+                "smart_appointment": {
+                    "value": 122
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 35,
+                    "rendered": "35"
+                },
+                "quick_request": {
+                    "value": 3626,
+                    "rendered": "3626"
+                },
+                "smart_appointment": {
+                    "value": 132,
+                    "rendered": "132"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Kraft-Heinz",
+                "filterable_value": "\"Kraft-Heinz\""
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 2858,
+                    "rendered": "2,858"
+                },
+                "quick_request": {
+                    "value": 39
+                },
+                "smart_appointment": {
+                    "value": 139
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 2868,
+                    "rendered": "2868"
+                },
+                "quick_request": {
+                    "value": 49,
+                    "rendered": "49"
+                },
+                "smart_appointment": {
+                    "value": 149,
+                    "rendered": "149"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Peloton"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 21
+                },
+                "quick_request": {
+                    "value": 2219,
+                    "rendered": "2,219"
+                },
+                "smart_appointment": {
+                    "value": 36
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 31,
+                    "rendered": "31"
+                },
+                "quick_request": {
+                    "value": 2229,
+                    "rendered": "2229"
+                },
+                "smart_appointment": {
+                    "value": 46,
+                    "rendered": "46"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Novolex"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 1880,
+                    "rendered": "1,880"
+                },
+                "quick_request": {
+                    "value": 1
+                },
+                "smart_appointment": {
+                    "value": null
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 1890,
+                    "rendered": "1890"
+                },
+                "quick_request": {
+                    "value": 11,
+                    "rendered": "11"
+                },
+                "smart_appointment": {
+                    "value": null,
+                    "rendered": "null"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Target Dedicated"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 2
+                },
+                "quick_request": {
+                    "value": 1150,
+                    "rendered": "1,150"
+                },
+                "smart_appointment": {
+                    "value": null
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 12,
+                    "rendered": "12"
+                },
+                "quick_request": {
+                    "value": 1160,
+                    "rendered": "1160"
+                },
+                "smart_appointment": {
+                    "value": null,
+                    "rendered": "null"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Reckitt Benckiser"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 1030,
+                    "rendered": "1,030"
+                },
+                "quick_request": {
+                    "value": null
+                },
+                "smart_appointment": {
+                    "value": null
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 1040,
+                    "rendered": "1040"
+                },
+                "quick_request": {
+                    "value": null,
+                    "rendered": "null"
+                },
+                "smart_appointment": {
+                    "value": null,
+                    "rendered": "null"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Nestle USA"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 973
+                },
+                "quick_request": {
+                    "value": null
+                },
+                "smart_appointment": {
+                    "value": 5
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 983,
+                    "rendered": "983"
+                },
+                "quick_request": {
+                    "value": null,
+                    "rendered": "null"
+                },
+                "smart_appointment": {
+                    "value": 15,
+                    "rendered": "15"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Costco Wholesale"
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": null
+                },
+                "quick_request": {
+                    "value": 737
+                },
+                "smart_appointment": {
+                    "value": 26
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": null,
+                    "rendered": "null"
+                },
+                "quick_request": {
+                    "value": 747,
+                    "rendered": "747"
+                },
+                "smart_appointment": {
+                    "value": 36,
+                    "rendered": "36"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "Staples, Inc.",
+                "filterable_value": "\"Staples, Inc.\""
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": null
+                },
+                "quick_request": {
+                    "value": 388
+                },
+                "smart_appointment": {
+                    "value": 89
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": null,
+                    "rendered": "null"
+                },
+                "quick_request": {
+                    "value": 398,
+                    "rendered": "398"
+                },
+                "smart_appointment": {
+                    "value": 99,
+                    "rendered": "99"
+                }
+            }
+        },
+        {
+            "shipper_applications.name": {
+                "value": "TBC Corp ",
+                "filterable_value": "\"TBC Corp \""
+            },
+            "shipment_stop_appointments.shipment_stop_appointments_count": {
+                "edi": {
+                    "value": 360
+                },
+                "quick_request": {
+                    "value": null
+                },
+                "smart_appointment": {
+                    "value": null
+                }
+            },
+            "table_calc_test": {
+                "edi": {
+                    "value": 370,
+                    "rendered": "370"
+                },
+                "quick_request": {
+                    "value": null,
+                    "rendered": "null"
+                },
+                "smart_appointment": {
+                    "value": null,
+                    "rendered": "null"
+                }
+            }
+        }
+    ],
+    "drill_menu_build_time": 0.060752,
+    "expired": false,
+    "fields": {
+        "measures": [],
+        "dimensions": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": "Names",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Shipper Entity Entity Name",
+                "label_from_parameter": null,
+                "label_short": "Entity Name",
+                "map_layer": null,
+                "name": "shipper_applications.name",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "string",
+                "user_attribute_filter_types": [
+                    "string",
+                    "advanced_filter_string"
+                ],
+                "value_format": null,
+                "view": "shipper_applications",
+                "view_label": "Shipper Entity",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipper_applications",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Entity Name",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipper_applications",
+                "suggest_dimension": "shipper_applications.name",
+                "suggest_explore": "shipment_stop_appointments",
+                "suggestable": true,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipper_applications.view.lkml?line=178",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipper_applications.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipper_applications.view.lkml",
+                "sql": "${TABLE}.name ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        "table_calculations": [
+            {
+                "label": "table_calc_test",
+                "name": "table_calc_test",
+                "expression": "${shipment_stop_appointments.shipment_stop_appointments_count} + 10",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
+            }
+        ],
+        "pivots": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": "Categorical Features",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Appointment Appointment Confirmed Source",
+                "label_from_parameter": null,
+                "label_short": "Appointment Confirmed Source",
+                "map_layer": null,
+                "name": "shipment_stop_appointments.confirmed_source",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "string",
+                "user_attribute_filter_types": [
+                    "string",
+                    "advanced_filter_string"
+                ],
+                "value_format": null,
+                "view": "shipment_stop_appointments",
+                "view_label": "Appointment",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipment_stop_appointments",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Appointment Confirmed Source",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipment_stop_appointments",
+                "suggest_dimension": "shipment_stop_appointments.confirmed_source",
+                "suggest_explore": "shipment_stop_appointments",
+                "suggestable": true,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipment_stop_appointments.view.lkml?line=342",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "sql": "${TABLE}.confirmed_source ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0,
+                "sorted": {
+                    "desc": false,
+                    "sort_index": 0
+                }
+            }
+        ],
+        "measure_like": [
+            {
+                "label": "table_calc_test",
+                "name": "table_calc_test",
+                "expression": "${shipment_stop_appointments.shipment_stop_appointments_count} + 10",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
+            }
+        ],
+        "supermeasure_like": [],
+        "dimension_like": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": "Names",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "Shipper Entity Entity Name",
+                "label_from_parameter": null,
+                "label_short": "Entity Name",
+                "map_layer": null,
+                "name": "shipper_applications.name",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "string",
+                "user_attribute_filter_types": [
+                    "string",
+                    "advanced_filter_string"
+                ],
+                "value_format": null,
+                "view": "shipper_applications",
+                "view_label": "Shipper Entity",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipper_applications",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Entity Name",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipper_applications",
+                "suggest_dimension": "shipper_applications.name",
+                "suggest_explore": "shipment_stop_appointments",
+                "suggestable": true,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipper_applications.view.lkml?line=178",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipper_applications.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipper_applications.view.lkml",
+                "sql": "${TABLE}.name ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ]
+    },
+    "fill_fields": [],
+    "forecast_result": null,
+    "has_row_totals": false,
+    "has_totals": false,
+    "id": "query-result-39:{\"hidden_points_if_no\":[],\"hidden_fields\":[\"shipment_stop_appointments.shipment_stop_appointments_count\"]}",
+    "null_sort_treatment": "high",
+    "number_format": "1,234.56",
+    "pivots": [
+        {
+            "key": "edi",
+            "data": {
+                "shipment_stop_appointments.confirmed_source": "edi"
+            },
+            "sort_values": {
+                "shipment_stop_appointments.confirmed_source": "edi"
+            },
+            "labels": {
+                "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>edi</a>"
+            },
+            "is_total": false,
+            "metadata": {
+                "shipment_stop_appointments.confirmed_source": {
+                    "value": "edi"
+                }
+            }
+        },
+        {
+            "key": "quick_request",
+            "data": {
+                "shipment_stop_appointments.confirmed_source": "quick_request"
+            },
+            "sort_values": {
+                "shipment_stop_appointments.confirmed_source": "quick_request"
+            },
+            "labels": {
+                "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>quick_request</a>"
+            },
+            "is_total": false,
+            "metadata": {
+                "shipment_stop_appointments.confirmed_source": {
+                    "value": "quick_request",
+                    "filterable_value": "\"quick_request\""
+                }
+            }
+        },
+        {
+            "key": "smart_appointment",
+            "data": {
+                "shipment_stop_appointments.confirmed_source": "smart_appointment"
+            },
+            "sort_values": {
+                "shipment_stop_appointments.confirmed_source": "smart_appointment"
+            },
+            "labels": {
+                "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>smart_appointment</a>"
+            },
+            "is_total": false,
+            "metadata": {
+                "shipment_stop_appointments.confirmed_source": {
+                    "value": "smart_appointment",
+                    "filterable_value": "\"smart_appointment\""
+                }
+            }
+        }
+    ],
+    "ran_at": "2023-06-06T20:11:38+00:00",
+    "runtime": "2.808",
+    "sql": "SELECT * FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY z___min_rank) as z___pivot_row_rank, RANK() OVER (PARTITION BY z__pivot_col_rank ORDER BY z___min_rank) as z__pivot_col_ordering, CASE WHEN z___min_rank = z___rank THEN 1 ELSE 0 END AS z__is_highest_ranked_cell FROM (\nSELECT *, MIN(z___rank) OVER (PARTITION BY \"shipper_applications.name\") as z___min_rank FROM (\nSELECT *, RANK() OVER (ORDER BY CASE WHEN z__pivot_col_rank=6 THEN (CASE WHEN \"shipment_stop_appointments.shipment_stop_appointments_count\" IS NOT NULL THEN 0 ELSE 1 END) ELSE 2 END, CASE WHEN z__pivot_col_rank=6 THEN \"shipment_stop_appointments.shipment_stop_appointments_count\" ELSE NULL END DESC, \"shipment_stop_appointments.shipment_stop_appointments_count\" DESC, z__pivot_col_rank, \"shipper_applications.name\") AS z___rank FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY CASE WHEN \"shipment_stop_appointments.confirmed_source\" IS NULL THEN 1 ELSE 0 END, \"shipment_stop_appointments.confirmed_source\") AS z__pivot_col_rank FROM (\nSELECT\n    shipment_stop_appointments.confirmed_source  AS \"shipment_stop_appointments.confirmed_source\",\n    shipper_applications.name  AS \"shipper_applications.name\",\n    COUNT(DISTINCT shipment_stop_appointments.id ) AS \"shipment_stop_appointments.shipment_stop_appointments_count\"\nFROM stark_prod.recreated_tables.shipment_stop_appointments  AS shipment_stop_appointments\nINNER JOIN stark_prod.recreated_tables.shipment_stops  AS shipment_stops ON shipment_stops.id=shipment_stop_appointments.shipment_stop_id\nLEFT JOIN stark_prod.recreated_tables.auto_appointment_schedules  AS shipment_stops_auto_appointment_schedules ON shipment_stops_auto_appointment_schedules.shipment_stop_id=shipment_stops.id\nINNER JOIN stark_prod.recreated_tables.shipments  AS shipments ON shipments.id=shipment_stops.shipment_id\nINNER JOIN stark_prod.recreated_tables.shipper_applications  AS shipper_applications ON shipper_applications.id=shipments.shipper_application_id\nWHERE ((( shipment_stop_appointments.created_at  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( shipment_stop_appointments.created_at  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', 12, DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ)))))) AND ((shipment_stop_appointments.confirmed_source ) IN ('auto', 'edi', 'quick_request', 'scheduler', 'smart_appointment') AND (shipment_stop_appointments.confirmed_by_id is not null )) AND ((NOT ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stop_appointments.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) OR ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stop_appointments.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) IS NULL) AND ((NOT ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stops.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) OR ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stops.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) IS NULL) AND (shipments.state not in ('canceled','e_submitted') and shipments.is_tonu!='true' and shipments.shipper_application_id not in (625, 1798))))\nGROUP BY\n    1,\n    2\nHAVING COUNT(DISTINCT CASE WHEN (case\n        when shipment_stop_appointments.confirmed_source in ('scheduler','auto', 'smart_appointment', 'quick_request', 'edi', 'ryder_target_scheduling_job')\n          then true\n        when shipments.shipper_application_id=397 and (TO_CHAR(DATE_TRUNC('second', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(to_timestamp(concat(shipment_stops_auto_appointment_schedules.appointment_request_date, ' ',shipment_stops_auto_appointment_schedules.appointment_request_time), 'YYYY-MM-DD HH:MI')  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD HH24:MI:SS'))=(TO_CHAR(DATE_TRUNC('second', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(coalesce(shipment_stop_appointments.end_at::timestamp ,shipment_stop_appointments.start_at::timestamp)  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD HH24:MI:SS'))\n          then true\n        else False\n      end) AND (shipment_stops.deprecated_at  IS NULL) THEN shipment_stops.id  ELSE NULL END) >= 1) ww\n) bb WHERE z__pivot_col_rank <= 16384\n) aa\n) xx\n) zz\n WHERE (z__pivot_col_rank <= 50 OR z__is_highest_ranked_cell = 1) AND (z___pivot_row_rank <= 12 OR z__pivot_col_ordering = 1) ORDER BY z___pivot_row_rank",
+    "sql_explain": "EXPLAIN SELECT * FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY z___min_rank) as z___pivot_row_rank, RANK() OVER (PARTITION BY z__pivot_col_rank ORDER BY z___min_rank) as z__pivot_col_ordering, CASE WHEN z___min_rank = z___rank THEN 1 ELSE 0 END AS z__is_highest_ranked_cell FROM (\nSELECT *, MIN(z___rank) OVER (PARTITION BY \"shipper_applications.name\") as z___min_rank FROM (\nSELECT *, RANK() OVER (ORDER BY CASE WHEN z__pivot_col_rank=6 THEN (CASE WHEN \"shipment_stop_appointments.shipment_stop_appointments_count\" IS NOT NULL THEN 0 ELSE 1 END) ELSE 2 END, CASE WHEN z__pivot_col_rank=6 THEN \"shipment_stop_appointments.shipment_stop_appointments_count\" ELSE NULL END DESC, \"shipment_stop_appointments.shipment_stop_appointments_count\" DESC, z__pivot_col_rank, \"shipper_applications.name\") AS z___rank FROM (\nSELECT *, DENSE_RANK() OVER (ORDER BY CASE WHEN \"shipment_stop_appointments.confirmed_source\" IS NULL THEN 1 ELSE 0 END, \"shipment_stop_appointments.confirmed_source\") AS z__pivot_col_rank FROM (\nSELECT\n    shipment_stop_appointments.confirmed_source  AS \"shipment_stop_appointments.confirmed_source\",\n    shipper_applications.name  AS \"shipper_applications.name\",\n    COUNT(DISTINCT shipment_stop_appointments.id ) AS \"shipment_stop_appointments.shipment_stop_appointments_count\"\nFROM stark_prod.recreated_tables.shipment_stop_appointments  AS shipment_stop_appointments\nINNER JOIN stark_prod.recreated_tables.shipment_stops  AS shipment_stops ON shipment_stops.id=shipment_stop_appointments.shipment_stop_id \nLEFT JOIN stark_prod.recreated_tables.auto_appointment_schedules  AS shipment_stops_auto_appointment_schedules ON shipment_stops_auto_appointment_schedules.shipment_stop_id=shipment_stops.id \nINNER JOIN stark_prod.recreated_tables.shipments  AS shipments ON shipments.id=shipment_stops.shipment_id \nINNER JOIN stark_prod.recreated_tables.shipper_applications  AS shipper_applications ON shipper_applications.id=shipments.shipper_application_id \nWHERE ((( shipment_stop_appointments.created_at  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( shipment_stop_appointments.created_at  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('month', 12, DATEADD('month', -12, DATE_TRUNC('month', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ)))))) AND ((shipment_stop_appointments.confirmed_source ) IN ('auto', 'edi', 'quick_request', 'scheduler', 'smart_appointment') AND (shipment_stop_appointments.confirmed_by_id is not null )) AND ((NOT ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stop_appointments.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) OR ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stop_appointments.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) IS NULL) AND ((NOT ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stops.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) OR ((TO_CHAR(TO_DATE(CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(shipment_stops.deprecated_at  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD')) is not null ) IS NULL) AND (shipments.state not in ('canceled','e_submitted') and shipments.is_tonu!='true' and shipments.shipper_application_id not in (625, 1798))))\nGROUP BY\n    1,\n    2\nHAVING COUNT(DISTINCT CASE WHEN (case\n        when shipment_stop_appointments.confirmed_source in ('scheduler','auto', 'smart_appointment', 'quick_request', 'edi', 'ryder_target_scheduling_job')\n          then true\n        when shipments.shipper_application_id=397 and (TO_CHAR(DATE_TRUNC('second', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(to_timestamp(concat(shipment_stops_auto_appointment_schedules.appointment_request_date, ' ',shipment_stops_auto_appointment_schedules.appointment_request_time), 'YYYY-MM-DD HH:MI')  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD HH24:MI:SS'))=(TO_CHAR(DATE_TRUNC('second', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(coalesce(shipment_stop_appointments.end_at::timestamp ,shipment_stop_appointments.start_at::timestamp)  AS TIMESTAMP_NTZ))), 'YYYY-MM-DD HH24:MI:SS'))\n          then true\n        else False\n      end) AND (shipment_stops.deprecated_at  IS NULL) THEN shipment_stops.id  ELSE NULL END) >= 1) ww\n) bb WHERE z__pivot_col_rank <= 16384\n) aa\n) xx\n) zz\n WHERE (z__pivot_col_rank <= 50 OR z__is_highest_ranked_cell = 1) AND (z___pivot_row_rank <= 12 OR z__pivot_col_ordering = 1) ORDER BY z___pivot_row_rank",
+    "supports_pivot_in_db": true,
+    "timezone": "America/New_York",
+    "truncated": true,
+    "is_local": true,
+    "table_calcs_complete": true,
+    "tracked_attributes": {
+        "result.drill_menu_build_time": 0.060752,
+        "result.from_cache": false,
+        "result.runtime": "2.808",
+        "result.sql.length": 4689,
+        "result.supports_pivot_in_db": true,
+        "result.truncated": true
+    },
+    "pivotTableColumns": [
+        [
+            {
+                "key": "edi",
+                "data": {
+                    "shipment_stop_appointments.confirmed_source": "edi"
+                },
+                "sort_values": {
+                    "shipment_stop_appointments.confirmed_source": "edi"
+                },
+                "labels": {
+                    "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>edi</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "shipment_stop_appointments.confirmed_source": {
+                        "value": "edi"
+                    }
+                }
+            },
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "The count of unique shipment stop appointments",
+                "enumerations": null,
+                "field_group_label": "Counts",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Appointment Count Appointments",
+                "label_from_parameter": null,
+                "label_short": "Count Appointments",
+                "map_layer": null,
+                "name": "shipment_stop_appointments.shipment_stop_appointments_count",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "count_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "shipment_stop_appointments",
+                "view_label": "Appointment",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipment_stop_appointments",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Count Appointments",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipment_stop_appointments",
+                "suggest_dimension": "shipment_stop_appointments.shipment_stop_appointments_count",
+                "suggest_explore": "shipment_stop_appointments",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipment_stop_appointments.view.lkml?line=674",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "sql": "${id} ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        [
+            {
+                "key": "edi",
+                "data": {
+                    "shipment_stop_appointments.confirmed_source": "edi"
+                },
+                "sort_values": {
+                    "shipment_stop_appointments.confirmed_source": "edi"
+                },
+                "labels": {
+                    "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>edi</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "shipment_stop_appointments.confirmed_source": {
+                        "value": "edi"
+                    }
+                }
+            },
+            {
+                "label": "table_calc_test",
+                "name": "table_calc_test",
+                "expression": "${shipment_stop_appointments.shipment_stop_appointments_count} + 10",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
+            }
+        ],
+        [
+            {
+                "key": "quick_request",
+                "data": {
+                    "shipment_stop_appointments.confirmed_source": "quick_request"
+                },
+                "sort_values": {
+                    "shipment_stop_appointments.confirmed_source": "quick_request"
+                },
+                "labels": {
+                    "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>quick_request</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "shipment_stop_appointments.confirmed_source": {
+                        "value": "quick_request",
+                        "filterable_value": "\"quick_request\""
+                    }
+                }
+            },
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "The count of unique shipment stop appointments",
+                "enumerations": null,
+                "field_group_label": "Counts",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Appointment Count Appointments",
+                "label_from_parameter": null,
+                "label_short": "Count Appointments",
+                "map_layer": null,
+                "name": "shipment_stop_appointments.shipment_stop_appointments_count",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "count_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "shipment_stop_appointments",
+                "view_label": "Appointment",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipment_stop_appointments",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Count Appointments",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipment_stop_appointments",
+                "suggest_dimension": "shipment_stop_appointments.shipment_stop_appointments_count",
+                "suggest_explore": "shipment_stop_appointments",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipment_stop_appointments.view.lkml?line=674",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "sql": "${id} ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        [
+            {
+                "key": "quick_request",
+                "data": {
+                    "shipment_stop_appointments.confirmed_source": "quick_request"
+                },
+                "sort_values": {
+                    "shipment_stop_appointments.confirmed_source": "quick_request"
+                },
+                "labels": {
+                    "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>quick_request</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "shipment_stop_appointments.confirmed_source": {
+                        "value": "quick_request",
+                        "filterable_value": "\"quick_request\""
+                    }
+                }
+            },
+            {
+                "label": "table_calc_test",
+                "name": "table_calc_test",
+                "expression": "${shipment_stop_appointments.shipment_stop_appointments_count} + 10",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
+            }
+        ],
+        [
+            {
+                "key": "smart_appointment",
+                "data": {
+                    "shipment_stop_appointments.confirmed_source": "smart_appointment"
+                },
+                "sort_values": {
+                    "shipment_stop_appointments.confirmed_source": "smart_appointment"
+                },
+                "labels": {
+                    "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>smart_appointment</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "shipment_stop_appointments.confirmed_source": {
+                        "value": "smart_appointment",
+                        "filterable_value": "\"smart_appointment\""
+                    }
+                }
+            },
+            {
+                "align": "right",
+                "can_filter": true,
+                "category": "measure",
+                "default_filter_value": null,
+                "description": "The count of unique shipment stop appointments",
+                "enumerations": null,
+                "field_group_label": "Counts",
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": true,
+                "label": "Appointment Count Appointments",
+                "label_from_parameter": null,
+                "label_short": "Count Appointments",
+                "map_layer": null,
+                "name": "shipment_stop_appointments.shipment_stop_appointments_count",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "count_distinct",
+                "user_attribute_filter_types": [
+                    "number",
+                    "advanced_filter_number"
+                ],
+                "value_format": null,
+                "view": "shipment_stop_appointments",
+                "view_label": "Appointment",
+                "dynamic": false,
+                "week_start_day": "monday",
+                "original_view": "shipment_stop_appointments",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "Count Appointments",
+                "measure": true,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipment_stop_appointments",
+                "suggest_dimension": "shipment_stop_appointments.shipment_stop_appointments_count",
+                "suggest_explore": "shipment_stop_appointments",
+                "suggestable": false,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": "/projects/snowflake/files/MarketPlace%2FCore%2Fviews%2Fshipment_stop_appointments.view.lkml?line=674",
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipment_stop_appointments.view.lkml",
+                "sql": "${id} ",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        [
+            {
+                "key": "smart_appointment",
+                "data": {
+                    "shipment_stop_appointments.confirmed_source": "smart_appointment"
+                },
+                "sort_values": {
+                    "shipment_stop_appointments.confirmed_source": "smart_appointment"
+                },
+                "labels": {
+                    "shipment_stop_appointments.confirmed_source": "<a href='#drillmenu' class='cell-clickable-content' target='_self'>smart_appointment</a>"
+                },
+                "is_total": false,
+                "metadata": {
+                    "shipment_stop_appointments.confirmed_source": {
+                        "value": "smart_appointment",
+                        "filterable_value": "\"smart_appointment\""
+                    }
+                }
+            },
+            {
+                "label": "table_calc_test",
+                "name": "table_calc_test",
+                "expression": "${shipment_stop_appointments.shipment_stop_appointments_count} + 10",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": null,
+                "is_numeric": true
+            }
+        ]
+    ],
+    "sorts": []
+}, "data": [
+    {
+        "shipper_applications.name": {
+            "value": "Niagara Bottling LLC"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 40434,
+                "rendered": "40,434"
+            },
+            "quick_request": {
+                "value": null
+            },
+            "smart_appointment": {
+                "value": null
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 40444,
+                "rendered": "40444"
+            },
+            "quick_request": {
+                "value": null,
+                "rendered": "null"
+            },
+            "smart_appointment": {
+                "value": null,
+                "rendered": "null"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Anheuser-Busch",
+            "filterable_value": "\"Anheuser-Busch\""
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 8699,
+                "rendered": "8,699"
+            },
+            "quick_request": {
+                "value": null
+            },
+            "smart_appointment": {
+                "value": null
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 8709,
+                "rendered": "8709"
+            },
+            "quick_request": {
+                "value": null,
+                "rendered": "null"
+            },
+            "smart_appointment": {
+                "value": null,
+                "rendered": "null"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Target"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 25
+            },
+            "quick_request": {
+                "value": 3616,
+                "rendered": "3,616"
+            },
+            "smart_appointment": {
+                "value": 122
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 35,
+                "rendered": "35"
+            },
+            "quick_request": {
+                "value": 3626,
+                "rendered": "3626"
+            },
+            "smart_appointment": {
+                "value": 132,
+                "rendered": "132"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Kraft-Heinz",
+            "filterable_value": "\"Kraft-Heinz\""
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 2858,
+                "rendered": "2,858"
+            },
+            "quick_request": {
+                "value": 39
+            },
+            "smart_appointment": {
+                "value": 139
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 2868,
+                "rendered": "2868"
+            },
+            "quick_request": {
+                "value": 49,
+                "rendered": "49"
+            },
+            "smart_appointment": {
+                "value": 149,
+                "rendered": "149"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Peloton"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 21
+            },
+            "quick_request": {
+                "value": 2219,
+                "rendered": "2,219"
+            },
+            "smart_appointment": {
+                "value": 36
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 31,
+                "rendered": "31"
+            },
+            "quick_request": {
+                "value": 2229,
+                "rendered": "2229"
+            },
+            "smart_appointment": {
+                "value": 46,
+                "rendered": "46"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Novolex"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 1880,
+                "rendered": "1,880"
+            },
+            "quick_request": {
+                "value": 1
+            },
+            "smart_appointment": {
+                "value": null
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 1890,
+                "rendered": "1890"
+            },
+            "quick_request": {
+                "value": 11,
+                "rendered": "11"
+            },
+            "smart_appointment": {
+                "value": null,
+                "rendered": "null"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Target Dedicated"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 2
+            },
+            "quick_request": {
+                "value": 1150,
+                "rendered": "1,150"
+            },
+            "smart_appointment": {
+                "value": null
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 12,
+                "rendered": "12"
+            },
+            "quick_request": {
+                "value": 1160,
+                "rendered": "1160"
+            },
+            "smart_appointment": {
+                "value": null,
+                "rendered": "null"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Reckitt Benckiser"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 1030,
+                "rendered": "1,030"
+            },
+            "quick_request": {
+                "value": null
+            },
+            "smart_appointment": {
+                "value": null
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 1040,
+                "rendered": "1040"
+            },
+            "quick_request": {
+                "value": null,
+                "rendered": "null"
+            },
+            "smart_appointment": {
+                "value": null,
+                "rendered": "null"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Nestle USA"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 973
+            },
+            "quick_request": {
+                "value": null
+            },
+            "smart_appointment": {
+                "value": 5
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 983,
+                "rendered": "983"
+            },
+            "quick_request": {
+                "value": null,
+                "rendered": "null"
+            },
+            "smart_appointment": {
+                "value": 15,
+                "rendered": "15"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Costco Wholesale"
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": null
+            },
+            "quick_request": {
+                "value": 737
+            },
+            "smart_appointment": {
+                "value": 26
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": null,
+                "rendered": "null"
+            },
+            "quick_request": {
+                "value": 747,
+                "rendered": "747"
+            },
+            "smart_appointment": {
+                "value": 36,
+                "rendered": "36"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "Staples, Inc.",
+            "filterable_value": "\"Staples, Inc.\""
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": null
+            },
+            "quick_request": {
+                "value": 388
+            },
+            "smart_appointment": {
+                "value": 89
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": null,
+                "rendered": "null"
+            },
+            "quick_request": {
+                "value": 398,
+                "rendered": "398"
+            },
+            "smart_appointment": {
+                "value": 99,
+                "rendered": "99"
+            }
+        }
+    },
+    {
+        "shipper_applications.name": {
+            "value": "TBC Corp ",
+            "filterable_value": "\"TBC Corp \""
+        },
+        "shipment_stop_appointments.shipment_stop_appointments_count": {
+            "edi": {
+                "value": 360
+            },
+            "quick_request": {
+                "value": null
+            },
+            "smart_appointment": {
+                "value": null
+            }
+        },
+        "table_calc_test": {
+            "edi": {
+                "value": 370,
+                "rendered": "370"
+            },
+            "quick_request": {
+                "value": null,
+                "rendered": "null"
+            },
+            "smart_appointment": {
+                "value": null,
+                "rendered": "null"
+            }
+        }
+    }
+]
+}
