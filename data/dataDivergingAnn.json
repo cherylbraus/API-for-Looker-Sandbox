@@ -1,0 +1,300 @@
+{"queryResponse": {
+    "parent_id": "c9a16eaabf81ea1714b2876a05076d33",
+    "sql_changed": false,
+    "aggregate_table_used_info": null,
+    "added_params": null,
+    "cached_derived": true,
+    "data": [
+        {
+            "tcm50_of_shipments_1": {
+                "value": "TCM50+"
+            },
+            "shipments.shipment_count": {
+                "value": 10130,
+                "rendered": "10,130",
+                "links": [
+                    {
+                        "label": "Show All 10,130",
+                        "label_prefix": "Show All",
+                        "label_value": "10,130",
+                        "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.assigned_week]=6+weeks&f[tcm50_of_shipments_1]=TCM50%2B&f[shipments.is_tonu]=No&dynamic_fields=%5B%7B%22category%22%3A%22dimension%22%2C%22expression%22%3A%22if%28%24%7Bshipment_transfix_cost_predictions.carrier_rate_as_tcm_percentile%7D%3E%3D50%2C%5C%22TCM50%2B%5C%22%2C%5C%22%3CTCM50%5C%22%29%22%2C%22label%22%3A%22TCM50+%25+of+shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22dimension%22%3A%22tcm50_of_shipments_1%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22string%22%7D%5D&query_timezone=America%2FNew_York&limit=500",
+                        "type": "measure_default"
+                    }
+                ]
+            },
+            "percent_of_shipments_count_shipments_2": {
+                "value": 0.5238119861419929,
+                "rendered": "52%"
+            },
+            "f": {
+                "value": 0.47618801385800713,
+                "rendered": "48%"
+            },
+            "row": {
+                "value": "Yes",
+                "rendered": "Yes"
+            },
+            "of_shipments_tcm50": {
+                "value": 0.5238119861419929,
+                "rendered": "52%"
+            },
+            "shipments_tcm50": {
+                "value": 0.47618801385800713,
+                "rendered": "48%"
+            }
+        }
+    ],
+    "drill_menu_build_time": 0.049519,
+    "expired": false,
+    "fields": {
+        "measures": [],
+        "dimensions": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "TCM50 % of shipments",
+                "label_from_parameter": null,
+                "label_short": "TCM50 % of shipments",
+                "map_layer": null,
+                "name": "tcm50_of_shipments_1",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "string",
+                "user_attribute_filter_types": [
+                    "string",
+                    "advanced_filter_string"
+                ],
+                "value_format": null,
+                "view": "shipment_transfix_cost_predictions",
+                "view_label": "",
+                "dynamic": true,
+                "week_start_day": "monday",
+                "original_view": "shipment_transfix_cost_predictions",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "TCM50 % of shipments",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipment_transfix_cost_predictions",
+                "suggest_dimension": "tcm50_of_shipments_1",
+                "suggest_explore": "shipments",
+                "suggestable": true,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": null,
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipment_transfix_cost_predictions.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipment_transfix_cost_predictions.view.lkml",
+                "sql": "tcm50_of_shipments_1",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ],
+        "table_calculations": [
+            {
+                "label": "Percent of Shipments Count Shipments",
+                "name": "percent_of_shipments_count_shipments_2",
+                "expression": "(${shipments.shipment_count} / sum(${shipments.shipment_count}))",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": "#,##0%",
+                "is_numeric": true
+            },
+            {
+                "label": "% Shipments: <TCM50",
+                "name": "shipments_tcm50",
+                "expression": "1-${percent_of_shipments_count_shipments_2}",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": "#,##0%",
+                "is_numeric": true
+            }
+        ],
+        "pivots": [],
+        "measure_like": [
+            {
+                "label": "Percent of Shipments Count Shipments",
+                "name": "percent_of_shipments_count_shipments_2",
+                "expression": "(${shipments.shipment_count} / sum(${shipments.shipment_count}))",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": "#,##0%",
+                "is_numeric": true
+            },
+            {
+                "label": "% Shipments: <TCM50",
+                "name": "shipments_tcm50",
+                "expression": "1-${percent_of_shipments_count_shipments_2}",
+                "can_pivot": true,
+                "sortable": true,
+                "type": "number",
+                "align": "right",
+                "measure": true,
+                "is_table_calculation": true,
+                "dynamic": true,
+                "value_format": "#,##0%",
+                "is_numeric": true
+            }
+        ],
+        "dimension_like": [
+            {
+                "align": "left",
+                "can_filter": true,
+                "category": "dimension",
+                "default_filter_value": null,
+                "description": "",
+                "enumerations": null,
+                "field_group_label": null,
+                "fill_style": null,
+                "fiscal_month_offset": 0,
+                "has_allowed_values": false,
+                "hidden": false,
+                "is_filter": false,
+                "is_numeric": false,
+                "label": "TCM50 % of shipments",
+                "label_from_parameter": null,
+                "label_short": "TCM50 % of shipments",
+                "map_layer": null,
+                "name": "tcm50_of_shipments_1",
+                "strict_value_format": false,
+                "requires_refresh_on_sort": false,
+                "sortable": true,
+                "suggestions": null,
+                "tags": [],
+                "type": "string",
+                "user_attribute_filter_types": [
+                    "string",
+                    "advanced_filter_string"
+                ],
+                "value_format": null,
+                "view": "shipment_transfix_cost_predictions",
+                "view_label": "",
+                "dynamic": true,
+                "week_start_day": "monday",
+                "original_view": "shipment_transfix_cost_predictions",
+                "dimension_group": null,
+                "error": null,
+                "field_group_variant": "TCM50 % of shipments",
+                "measure": false,
+                "parameter": false,
+                "primary_key": false,
+                "project_name": "snowflake",
+                "scope": "shipment_transfix_cost_predictions",
+                "suggest_dimension": "tcm50_of_shipments_1",
+                "suggest_explore": "shipments",
+                "suggestable": true,
+                "is_fiscal": false,
+                "is_timeframe": false,
+                "can_time_filter": false,
+                "time_interval": null,
+                "lookml_link": null,
+                "permanent": null,
+                "source_file": "MarketPlace/Core/views/shipment_transfix_cost_predictions.view.lkml",
+                "source_file_path": "snowflake/MarketPlace/Core/views/shipment_transfix_cost_predictions.view.lkml",
+                "sql": "tcm50_of_shipments_1",
+                "sql_case": null,
+                "filters": null,
+                "times_used": 0
+            }
+        ]
+    },
+    "fill_fields": [],
+    "forecast_result": null,
+    "has_row_totals": false,
+    "has_totals": false,
+    "id": "query-result-20:{\"hidden_points_if_no\":[\"a\",\"row\"],\"hidden_fields\":[\"shipments.shipment_count\"]}",
+    "null_sort_treatment": "high",
+    "number_format": "1,234.56",
+    "ran_at": "2023-06-08T15:54:25+00:00",
+    "runtime": "1.043",
+    "sql": "-- use existing shipment_transfix_cost_predictions in LOOKER_SCRATCH.LR$YVJY11686236698763_shipment_transfix_cost_predictions\n-- use existing shipment_current_assignment in LOOKER_SCRATCH.LR$YV0XM1686239155616_shipment_current_assignment\nSELECT\n    CASE WHEN (round(CASE WHEN shipment_transfix_cost_predictions.prediction_10 is null\n              -- when we only have TCM25/50/75 need to interpolate differently than when we have TCM10/25/50/75/90\n              THEN (CASE WHEN  (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) < shipment_transfix_cost_predictions.prediction_bottom THEN 25.0\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_bottom and shipment_transfix_cost_predictions.prediction_estimate THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_bottom)/(shipment_transfix_cost_predictions.prediction_estimate - shipment_transfix_cost_predictions.prediction_bottom)*(50-25)+25\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_estimate and shipment_transfix_cost_predictions.prediction_top THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_estimate)/(shipment_transfix_cost_predictions.prediction_top - shipment_transfix_cost_predictions.prediction_estimate)*(75-50)+50\n                      ELSE 75.0\n                  END)\n              ELSE (CASE WHEN  (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) < shipment_transfix_cost_predictions.prediction_10 THEN 10.0\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_10 and shipment_transfix_cost_predictions.prediction_bottom THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_10)/(shipment_transfix_cost_predictions.prediction_bottom - shipment_transfix_cost_predictions.prediction_10)*(25-10)+10\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_bottom and shipment_transfix_cost_predictions.prediction_estimate THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_bottom)/(shipment_transfix_cost_predictions.prediction_estimate - shipment_transfix_cost_predictions.prediction_bottom)*(50-25)+25\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_estimate and shipment_transfix_cost_predictions.prediction_top THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_estimate)/(shipment_transfix_cost_predictions.prediction_top - shipment_transfix_cost_predictions.prediction_estimate)*(75-50)+50\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_top and shipment_transfix_cost_predictions.prediction_90 THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_top)/(shipment_transfix_cost_predictions.prediction_90 - shipment_transfix_cost_predictions.prediction_top)*(90-75)+75\n                      ELSE 90.0\n                  END)\n          END,0)\n) >= 50 THEN 'TCM50+' ELSE '<TCM50' END\n AS tcm50_of_shipments_1,\n    COUNT(DISTINCT CASE WHEN (CASE WHEN shipments.is_tonu  THEN 1 ELSE 0 END\n) = 0 THEN shipments.id  ELSE NULL END) AS \"shipments.shipment_count\"\nFROM stark_prod.recreated_tables.shipments  AS shipments\nLEFT JOIN LOOKER_SCRATCH.LR$YVJY11686236698763_shipment_transfix_cost_predictions AS shipment_transfix_cost_predictions ON shipment_transfix_cost_predictions.shipment_id=shipments.id\n          and shipment_transfix_cost_predictions.rank_not_assigned=1\n          and (case when shipment_transfix_cost_predictions.synthetic_rate = 'true' then true else false end) = false\n\nLEFT JOIN LOOKER_SCRATCH.LR$YV0XM1686239155616_shipment_current_assignment AS shipment_current_assignment ON shipment_current_assignment.shipment_id = shipments.id\nWHERE ((( (TO_CHAR(DATE_TRUNC('second', shipment_current_assignment.created_second ), 'YYYY-MM-DD HH24:MI:SS'))::timestamp_ntz  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('day', -35, DATE_TRUNC('week', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( (TO_CHAR(DATE_TRUNC('second', shipment_current_assignment.created_second ), 'YYYY-MM-DD HH24:MI:SS'))::timestamp_ntz  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('day', 42, DATEADD('day', -35, DATE_TRUNC('week', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    1\nORDER BY\n    2 DESC\nFETCH NEXT 2 ROWS ONLY",
+    "sql_explain": "EXPLAIN SELECT\n    CASE WHEN (round(CASE WHEN shipment_transfix_cost_predictions.prediction_10 is null\n              -- when we only have TCM25/50/75 need to interpolate differently than when we have TCM10/25/50/75/90\n              THEN (CASE WHEN  (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) < shipment_transfix_cost_predictions.prediction_bottom THEN 25.0\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_bottom and shipment_transfix_cost_predictions.prediction_estimate THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_bottom)/(shipment_transfix_cost_predictions.prediction_estimate - shipment_transfix_cost_predictions.prediction_bottom)*(50-25)+25\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_estimate and shipment_transfix_cost_predictions.prediction_top THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_estimate)/(shipment_transfix_cost_predictions.prediction_top - shipment_transfix_cost_predictions.prediction_estimate)*(75-50)+50\n                      ELSE 75.0\n                  END)\n              ELSE (CASE WHEN  (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) < shipment_transfix_cost_predictions.prediction_10 THEN 10.0\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_10 and shipment_transfix_cost_predictions.prediction_bottom THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_10)/(shipment_transfix_cost_predictions.prediction_bottom - shipment_transfix_cost_predictions.prediction_10)*(25-10)+10\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_bottom and shipment_transfix_cost_predictions.prediction_estimate THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_bottom)/(shipment_transfix_cost_predictions.prediction_estimate - shipment_transfix_cost_predictions.prediction_bottom)*(50-25)+25\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_estimate and shipment_transfix_cost_predictions.prediction_top THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_estimate)/(shipment_transfix_cost_predictions.prediction_top - shipment_transfix_cost_predictions.prediction_estimate)*(75-50)+50\n                      WHEN (iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) between shipment_transfix_cost_predictions.prediction_top and shipment_transfix_cost_predictions.prediction_90 THEN ((iff(shipments.is_tonu, null, shipments.carrier_rate + (iff(shipments.is_tonu, 0, coalesce(shipments.carrier_total_fuel_surcharge, (coalesce(case when shipments.is_tonu then null else shipments.carrier_per_mile_fuel_rate end,0))*coalesce(shipments.shipper_miles,shipments.calculated_miles)))))) - shipment_transfix_cost_predictions.prediction_top)/(shipment_transfix_cost_predictions.prediction_90 - shipment_transfix_cost_predictions.prediction_top)*(90-75)+75\n                      ELSE 90.0\n                  END)\n          END,0)\n) >= 50 THEN 'TCM50+' ELSE '<TCM50' END\n AS tcm50_of_shipments_1,\n    COUNT(DISTINCT CASE WHEN (CASE WHEN shipments.is_tonu  THEN 1 ELSE 0 END\n) = 0 THEN shipments.id  ELSE NULL END) AS \"shipments.shipment_count\"\nFROM stark_prod.recreated_tables.shipments  AS shipments\nLEFT JOIN LOOKER_SCRATCH.LR$YVJY11686236698763_shipment_transfix_cost_predictions AS shipment_transfix_cost_predictions ON shipment_transfix_cost_predictions.shipment_id=shipments.id\n          and shipment_transfix_cost_predictions.rank_not_assigned=1\n          and (case when shipment_transfix_cost_predictions.synthetic_rate = 'true' then true else false end) = false\n          \nLEFT JOIN LOOKER_SCRATCH.LR$YV0XM1686239155616_shipment_current_assignment AS shipment_current_assignment ON shipment_current_assignment.shipment_id = shipments.id\nWHERE ((( (TO_CHAR(DATE_TRUNC('second', shipment_current_assignment.created_second ), 'YYYY-MM-DD HH24:MI:SS'))::timestamp_ntz  ) >= ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('day', -35, DATE_TRUNC('week', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ))))) AS TIMESTAMP_NTZ)))) AND ( (TO_CHAR(DATE_TRUNC('second', shipment_current_assignment.created_second ), 'YYYY-MM-DD HH24:MI:SS'))::timestamp_ntz  ) < ((CONVERT_TIMEZONE('America/New_York', 'UTC', CAST(DATEADD('day', 42, DATEADD('day', -35, DATE_TRUNC('week', DATE_TRUNC('day', CONVERT_TIMEZONE('UTC', 'America/New_York', CAST(CURRENT_TIMESTAMP() AS TIMESTAMP_NTZ)))))) AS TIMESTAMP_NTZ))))))\nGROUP BY\n    1\nORDER BY\n    2 DESC\nFETCH NEXT 2 ROWS ONLY",
+    "supports_pivot_in_db": true,
+    "timezone": "America/New_York",
+    "truncated": true,
+    "is_local": true,
+    "table_calcs_complete": true,
+    "tracked_attributes": {
+        "result.drill_menu_build_time": 0.049519,
+        "result.from_cache": false,
+        "result.runtime": "1.043",
+        "result.sql.length": 8425,
+        "result.supports_pivot_in_db": true,
+        "result.truncated": true
+    },
+    "sorts": []
+}, "data": [
+    {
+        "tcm50_of_shipments_1": {
+            "value": "TCM50+"
+        },
+        "shipments.shipment_count": {
+            "value": 10130,
+            "rendered": "10,130",
+            "links": [
+                {
+                    "label": "Show All 10,130",
+                    "label_prefix": "Show All",
+                    "label_value": "10,130",
+                    "url": "/explore/snowflake_marketplace/shipments?fields=shipments.id,shipments.state,shipments.created_date,shipments.assigned_date,equipment.parent_name,shipments.lane_city_state,carrier_manager_parent.name,driver_parent.name,driver_parent.phone,shipment_tracking_pings.is_tracking,first_pickup_appointment.appointment_end_local_time,first_pickup.late_reason,last_delivery_appointment.appointment_end_local_time,last_delivery.late_reason,shipments.shipper_total_rate,shipments.carrier_total_rate,shipments.total_margin,shipments.dat_rate,shipments.carrier_manager_target&f[shipments.assigned_week]=6+weeks&f[tcm50_of_shipments_1]=TCM50%2B&f[shipments.is_tonu]=No&dynamic_fields=%5B%7B%22category%22%3A%22dimension%22%2C%22expression%22%3A%22if%28%24%7Bshipment_transfix_cost_predictions.carrier_rate_as_tcm_percentile%7D%3E%3D50%2C%5C%22TCM50%2B%5C%22%2C%5C%22%3CTCM50%5C%22%29%22%2C%22label%22%3A%22TCM50+%25+of+shipments%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22dimension%22%3A%22tcm50_of_shipments_1%22%2C%22_kind_hint%22%3A%22dimension%22%2C%22_type_hint%22%3A%22string%22%7D%5D&query_timezone=America%2FNew_York&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percent_of_shipments_count_shipments_2": {
+            "value": 0.5238119861419929,
+            "rendered": "52%"
+        },
+        "f": {
+            "value": 0.47618801385800713,
+            "rendered": "48%"
+        },
+        "row": {
+            "value": "Yes",
+            "rendered": "Yes"
+        },
+        "of_shipments_tcm50": {
+            "value": 0.5238119861419929,
+            "rendered": "52%"
+        },
+        "shipments_tcm50": {
+            "value": 0.47618801385800713,
+            "rendered": "48%"
+        }
+    }
+]
+}
