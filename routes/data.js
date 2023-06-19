@@ -53,6 +53,7 @@ const dataRoutes = (app, fs) => {
   const dataPathHeatmapTableCalc = './data/dataHeatmapTableCalc.json';
   const dataPathDivergingAnn = './data/dataDivergingAnn.json';
   const dataPathHeatmapAnn = './data/dataHeatmapAnn.json';
+  const dataPathLineForecast = './data/dataLineForecast.json';
 
   // READ
   app.get('/dataOnePivot', (req, res) => {
@@ -577,6 +578,16 @@ const dataRoutes = (app, fs) => {
 
   app.get('/dataHeatmapAnn', (req, res) => {
     fs.readFile(dataPathHeatmapAnn, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  app.get('/dataLineForecast', (req, res) => {
+    fs.readFile(dataPathLineForecast, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
